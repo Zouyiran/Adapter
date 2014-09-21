@@ -1,4 +1,5 @@
 Adapter
 =======
 
-适配网关开发
+Adapter in business platform of Smart Agriculture,CTBRI
+develop with Python
