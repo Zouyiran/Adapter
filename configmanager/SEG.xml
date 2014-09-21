@@ -1,0 +1,4797 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ServiceResponse>
+<TransactionID>2C4AF786F1DD7E65-9AAB-1557-C7F7-604100000000</TransactionID>
+<AppCode>GASE2</AppCode>
+<Authenticator>dd645236f54146e28efa0cefc0de9244</Authenticator>
+<TimeStamp>20130624102828</TimeStamp>
+<Result>1</Result>
+<Mid></Mid>
+<AdapterGatewayConfig>
+<Margin Type="0" InsID="8145558532">
+<InsCode>8145558532</InsCode>
+<Name>边缘网关1</Name>
+<Mac>2.2.2.77</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>60</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="4119347432">
+<Name>采控器1</Name>
+<Mac>1.2.3.4.5.6.7.77</Mac>
+<Cycle>60</Cycle>
+<Device Type="0" InsCode="8423704124">
+<InsID>8423704124</InsID>
+<Name>卷帘控制器1</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2108</Address>
+<DevTypeID>4014</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="9">S:0:{0@关@1@开}</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>5051957106</MonitorCode>
+</Device>
+<Device Type="0" InsCode="3275712226">
+<InsID>3275712226</InsID>
+<Name>卷帘控制器14</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2164</Address>
+<DevTypeID>4014</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="9">S:0:{0@关@1@开}</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>5051957106</MonitorCode>
+</Device>
+<Device Type="0" InsCode="9781852367">
+<InsID>9781852367</InsID>
+<Name>卷帘控制器8</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2134</Address>
+<DevTypeID>4014</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="9">S:0:{0@关@1@开}</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>5051957106</MonitorCode>
+</Device>
+<Device Type="0" InsCode="8327077787">
+<InsID>8327077787</InsID>
+<Name>卷帘控制器6</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2118</Address>
+<DevTypeID>4014</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="9">S:0:{0@关@1@开}</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>5051957106</MonitorCode>
+</Device>
+<Device Type="0" InsCode="9906787754">
+<InsID>9906787754</InsID>
+<Name>卷帘控制器9</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2140</Address>
+<DevTypeID>4014</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="9">S:0:{0@关@1@开}</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>5051957106</MonitorCode>
+</Device>
+<Device Type="0" InsCode="1700171045">
+<InsID>1700171045</InsID>
+<Name>卷帘控制器13</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2160</Address>
+<DevTypeID>4014</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="9">S:0:{0@关@1@开}</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>5051957106</MonitorCode>
+</Device>
+<Device Type="0" InsCode="7786645086">
+<InsID>7786645086</InsID>
+<Name>卷帘控制器7</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2130</Address>
+<DevTypeID>4014</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="9">S:0:{0@关@1@开}</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>5051957106</MonitorCode>
+</Device>
+<Device Type="0" InsCode="3179434519">
+<InsID>3179434519</InsID>
+<Name>卷帘控制器16</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2174</Address>
+<DevTypeID>4014</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="9">S:0:{0@关@1@开}</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>5051957106</MonitorCode>
+</Device>
+<Device Type="0" InsCode="8164513380">
+<InsID>8164513380</InsID>
+<Name>卷帘控制器15</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x211c</Address>
+<DevTypeID>4014</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="9">S:0:{0@关@1@开}</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>5051957106</MonitorCode>
+</Device>
+<Device Type="0" InsCode="2329944318">
+<InsID>2329944318</InsID>
+<Name>卷帘控制器5</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2120</Address>
+<DevTypeID>4014</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="9">S:0:{0@关@1@开}</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>5051957106</MonitorCode>
+</Device>
+<Device Type="0" InsCode="8366483550">
+<InsID>8366483550</InsID>
+<Name>卷帘控制器11</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2150</Address>
+<DevTypeID>4014</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="9">S:0:{0@关@1@开}</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>5051957106</MonitorCode>
+</Device>
+<Device Type="0" InsCode="6267481018">
+<InsID>6267481018</InsID>
+<Name>卷帘控制器10</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2144</Address>
+<DevTypeID>4014</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="9">S:0:{0@关@1@开}</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>5051957106</MonitorCode>
+</Device>
+<Device Type="0" InsCode="8778755241">
+<InsID>8778755241</InsID>
+<Name>卷帘控制器3</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x210c</Address>
+<DevTypeID>4014</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="9">S:0:{0@关@1@开}</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>5051957106</MonitorCode>
+</Device>
+<Device Type="0" InsCode="3298131194">
+<InsID>3298131194</InsID>
+<Name>卷帘控制器4</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2114</Address>
+<DevTypeID>4014</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="9">S:0:{0@关@1@开}</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>5051957106</MonitorCode>
+</Device>
+<Device Type="0" InsCode="5174956622">
+<InsID>5174956622</InsID>
+<Name>卷帘控制器2</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2104</Address>
+<DevTypeID>4014</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="9">S:0:{0@关@1@开}</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>5051957106</MonitorCode>
+</Device>
+<Device Type="0" InsCode="3803623066">
+<InsID>3803623066</InsID>
+<Name>卷帘控制器12</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2154</Address>
+<DevTypeID>4014</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="9">S:0:{0@关@1@开}</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>5051957106</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="9562067698">
+<InsCode>9562067698</InsCode>
+<Name>157边缘网关</Name>
+<Mac>0.0.1.0</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="6059042912">
+<Name>157采控器</Name>
+<Mac>0.0.0.241.0.0.0.1</Mac>
+<Cycle>60</Cycle>
+<Device Type="0" InsCode="7120201495">
+<InsID>7120201495</InsID>
+<Name>157湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>场所</MonitorName>
+<MonitorCode>1417305564</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="6557995340">
+<InsCode>6557995340</InsCode>
+<Name>2边缘网关</Name>
+<Mac>0.0.89.224</Mac>
+<Port>0</Port>
+<IsMultithreading>1</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="1525883486">
+<Name>2采控器</Name>
+<Mac>0.0.0.0.1.0.0.3</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="7158884458">
+<InsID>7158884458</InsID>
+<Name>2喷淋控制器2</Name>
+<WorkStatus>2</WorkStatus>
+<Address>0x2104</Address>
+<DevTypeID>4017</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="38">S:2:{0|关|0@1|1/3开|1@1|1/4开|1@1|1/5开|1@1|开|1}</Rule>
+</Rules>
+<MonitorName>场所3</MonitorName>
+<MonitorCode>6594690312</MonitorCode>
+</Device>
+<Device Type="0" InsCode="3494109105">
+<InsID>3494109105</InsID>
+<Name>2喷淋控制器1</Name>
+<WorkStatus>3</WorkStatus>
+<Address>0x2100</Address>
+<DevTypeID>4002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>场所2</MonitorName>
+<MonitorCode>6775722415</MonitorCode>
+</Device>
+</SC>
+<SC Type="0" InsCode="7426712853">
+<Name>2采集器</Name>
+<Mac>0.0.0.0.0.0.48.0</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="4894807173">
+<InsID>4894807173</InsID>
+<Name>2空气湿度传感器</Name>
+<WorkStatus>3</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>场所2</MonitorName>
+<MonitorCode>6775722415</MonitorCode>
+</Device>
+<Device Type="0" InsCode="8793817185">
+<InsID>8793817185</InsID>
+<Name>2土壤水分传感器</Name>
+<WorkStatus>3</WorkStatus>
+<Address>0x010C</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>场所2</MonitorName>
+<MonitorCode>6775722415</MonitorCode>
+</Device>
+<Device Type="0" InsCode="8713254449">
+<InsID>8713254449</InsID>
+<Name>2空气温度传感器</Name>
+<WorkStatus>3</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>场所2</MonitorName>
+<MonitorCode>6775722415</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="4629174139">
+<InsCode>4629174139</InsCode>
+<Name>1边缘网关</Name>
+<Mac>0.0.89.228</Mac>
+<Port>0</Port>
+<IsMultithreading>1</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="2270512551">
+<Name>1采控器</Name>
+<Mac>0.0.0.0.1.0.0.1</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="6740364388">
+<InsID>6740364388</InsID>
+<Name>1控制器灯</Name>
+<WorkStatus>3</WorkStatus>
+<Address>0x2100</Address>
+<DevTypeID>4000</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>场所1</MonitorName>
+<MonitorCode>5373497935</MonitorCode>
+</Device>
+</SC>
+<SC Type="0" InsCode="9391706993">
+<Name>1采集器</Name>
+<Mac>0.0.0.0.0.0.0.22</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="7894141715">
+<InsID>7894141715</InsID>
+<Name>1空气温度</Name>
+<WorkStatus>3</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>场所1</MonitorName>
+<MonitorCode>5373497935</MonitorCode>
+</Device>
+<Device Type="0" InsCode="2455515468">
+<InsID>2455515468</InsID>
+<Name>1空气湿度</Name>
+<WorkStatus>3</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>场所1</MonitorName>
+<MonitorCode>5373497935</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="8658234252">
+<InsCode>8658234252</InsCode>
+<Name>DPM设备_1</Name>
+<Mac>100.37.187.220</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>3030</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="8706815416">
+<Name>DPM采控器_1</Name>
+<Mac>100.208.108.50.212.119.247.250</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="2361462547">
+<InsID>2361462547</InsID>
+<Name>空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3044</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="21">(TH*256+TL)/10+4</Rule>
+</Rules>
+<MonitorName>709室_1</MonitorName>
+<MonitorCode>3676455763</MonitorCode>
+</Device>
+<Device Type="0" InsCode="6008184707">
+<InsID>6008184707</InsID>
+<Name>二氧化碳</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3004</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>709室_1</MonitorName>
+<MonitorCode>3676455763</MonitorCode>
+</Device>
+<Device Type="0" InsCode="6632268093">
+<InsID>6632268093</InsID>
+<Name>空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3043</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="20">(TH*256+TL)/10-2</Rule>
+</Rules>
+<MonitorName>709室_1</MonitorName>
+<MonitorCode>3676455763</MonitorCode>
+</Device>
+<Device Type="0" InsCode="8565256838">
+<InsID>8565256838</InsID>
+<Name>一氧化碳</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0110</Address>
+<DevTypeID>3058</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>709室_1</MonitorName>
+<MonitorCode>3676455763</MonitorCode>
+</Device>
+<Device Type="0" InsCode="2623638450">
+<InsID>2623638450</InsID>
+<Name>挥发性气体</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x010C</Address>
+<DevTypeID>3059</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="3">(TH*256+TL)/10</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>709室_1</MonitorName>
+<MonitorCode>3676455763</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="4450738328">
+<InsCode>4450738328</InsCode>
+<Name>DPM设备_3</Name>
+<Mac>100.124.216.110</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>3030</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="7548619297">
+<Name>DPM采控器_3</Name>
+<Mac>100.203.9.170.72.198.230.32</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="6159620708">
+<InsID>6159620708</InsID>
+<Name>挥发性气体</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x010c</Address>
+<DevTypeID>3059</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="3">(TH*256+TL)/10</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>4层办公区_1</MonitorName>
+<MonitorCode>6397553049</MonitorCode>
+</Device>
+<Device Type="0" InsCode="9692592293">
+<InsID>9692592293</InsID>
+<Name>空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3043</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="20">(TH*256+TL)/10-2</Rule>
+</Rules>
+<MonitorName>4层办公区_1</MonitorName>
+<MonitorCode>6397553049</MonitorCode>
+</Device>
+<Device Type="0" InsCode="7065889102">
+<InsID>7065889102</InsID>
+<Name>空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3044</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="21">(TH*256+TL)/10+4</Rule>
+</Rules>
+<MonitorName>4层办公区_1</MonitorName>
+<MonitorCode>6397553049</MonitorCode>
+</Device>
+<Device Type="0" InsCode="5569203173">
+<InsID>5569203173</InsID>
+<Name>二氧化碳</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3004</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>4层办公区_1</MonitorName>
+<MonitorCode>6397553049</MonitorCode>
+</Device>
+<Device Type="0" InsCode="6339558976">
+<InsID>6339558976</InsID>
+<Name>一氧化碳</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0110</Address>
+<DevTypeID>3058</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>4层办公区_1</MonitorName>
+<MonitorCode>6397553049</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="2435946605">
+<InsCode>2435946605</InsCode>
+<Name>DPM设备2</Name>
+<Mac>100.252.208.78</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>3030</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="6177330767">
+<Name>dpm采控器2</Name>
+<Mac>100.38.233.0.233.75.158.214</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="6353035597">
+<InsID>6353035597</InsID>
+<Name>二氧化碳</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3004</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>709室_2</MonitorName>
+<MonitorCode>7985129880</MonitorCode>
+</Device>
+<Device Type="0" InsCode="5823028909">
+<InsID>5823028909</InsID>
+<Name>空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3043</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="20">(TH*256+TL)/10-2</Rule>
+</Rules>
+<MonitorName>709室_2</MonitorName>
+<MonitorCode>7985129880</MonitorCode>
+</Device>
+<Device Type="0" InsCode="3191260118">
+<InsID>3191260118</InsID>
+<Name>挥发性气体</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x010c</Address>
+<DevTypeID>3059</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="3">(TH*256+TL)/10</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>709室_2</MonitorName>
+<MonitorCode>7985129880</MonitorCode>
+</Device>
+<Device Type="0" InsCode="8404846659">
+<InsID>8404846659</InsID>
+<Name>空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3044</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="21">(TH*256+TL)/10+4</Rule>
+</Rules>
+<MonitorName>709室_2</MonitorName>
+<MonitorCode>7985129880</MonitorCode>
+</Device>
+<Device Type="0" InsCode="2791545965">
+<InsID>2791545965</InsID>
+<Name>一氧化碳</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0110</Address>
+<DevTypeID>3058</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>709室_2</MonitorName>
+<MonitorCode>7985129880</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="5806044600">
+<InsCode>5806044600</InsCode>
+<Name>DPM设备4</Name>
+<Mac>100.149.176.150</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>3030</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="8079014906">
+<Name>dpm采控器4</Name>
+<Mac>100.152.253.161.246.74.241.103</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="4974093649">
+<InsID>4974093649</InsID>
+<Name>空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3043</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="20">(TH*256+TL)/10-2</Rule>
+</Rules>
+<MonitorName>4层办公区_2</MonitorName>
+<MonitorCode>6879921629</MonitorCode>
+</Device>
+<Device Type="0" InsCode="7814151056">
+<InsID>7814151056</InsID>
+<Name>空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3044</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="21">(TH*256+TL)/10+4</Rule>
+</Rules>
+<MonitorName>4层办公区_2</MonitorName>
+<MonitorCode>6879921629</MonitorCode>
+</Device>
+<Device Type="0" InsCode="1507288877">
+<InsID>1507288877</InsID>
+<Name>一氧化碳</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0110</Address>
+<DevTypeID>3058</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>4层办公区_2</MonitorName>
+<MonitorCode>6879921629</MonitorCode>
+</Device>
+<Device Type="0" InsCode="8193041255">
+<InsID>8193041255</InsID>
+<Name>挥发性气体</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x010C</Address>
+<DevTypeID>3059</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="3">(TH*256+TL)/10</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>4层办公区_2</MonitorName>
+<MonitorCode>6879921629</MonitorCode>
+</Device>
+<Device Type="0" InsCode="5141175340">
+<InsID>5141175340</InsID>
+<Name>二氧化碳</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3004</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>4层办公区_2</MonitorName>
+<MonitorCode>6879921629</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="8717844128">
+<InsCode>8717844128</InsCode>
+<Name>DPM设备5</Name>
+<Mac>100.211.153.52</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>3030</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="6914311441">
+<Name>dpm采控器5</Name>
+<Mac>100.206.17.26.134.74.191.64</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="5504731505">
+<InsID>5504731505</InsID>
+<Name>挥发性气体</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x010C</Address>
+<DevTypeID>3059</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="3">(TH*256+TL)/10</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>902办公区</MonitorName>
+<MonitorCode>4996326890</MonitorCode>
+</Device>
+<Device Type="0" InsCode="4400216170">
+<InsID>4400216170</InsID>
+<Name>二氧化碳</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3004</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>902办公区</MonitorName>
+<MonitorCode>4996326890</MonitorCode>
+</Device>
+<Device Type="0" InsCode="7135876927">
+<InsID>7135876927</InsID>
+<Name>空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3043</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="20">(TH*256+TL)/10-2</Rule>
+</Rules>
+<MonitorName>902办公区</MonitorName>
+<MonitorCode>4996326890</MonitorCode>
+</Device>
+<Device Type="0" InsCode="1317303554">
+<InsID>1317303554</InsID>
+<Name>一氧化碳</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0110</Address>
+<DevTypeID>3058</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>902办公区</MonitorName>
+<MonitorCode>4996326890</MonitorCode>
+</Device>
+<Device Type="0" InsCode="5005016598">
+<InsID>5005016598</InsID>
+<Name>空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3044</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="21">(TH*256+TL)/10+4</Rule>
+</Rules>
+<MonitorName>902办公区</MonitorName>
+<MonitorCode>4996326890</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="1990313665">
+<InsCode>1990313665</InsCode>
+<Name>DPM设备6</Name>
+<Mac>100.127.139.176</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>3030</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="1719560949">
+<Name>dpm采控器6</Name>
+<Mac>100.254.139.51.120.10.8.254</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="9522845091">
+<InsID>9522845091</InsID>
+<Name>挥发性气体</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x010C</Address>
+<DevTypeID>3059</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="3">(TH*256+TL)/10</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>709室_6</MonitorName>
+<MonitorCode>1227278312</MonitorCode>
+</Device>
+<Device Type="0" InsCode="3864090055">
+<InsID>3864090055</InsID>
+<Name>二氧化碳</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3004</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>709室_6</MonitorName>
+<MonitorCode>1227278312</MonitorCode>
+</Device>
+<Device Type="0" InsCode="7594039036">
+<InsID>7594039036</InsID>
+<Name>空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3044</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="21">(TH*256+TL)/10+4</Rule>
+</Rules>
+<MonitorName>709室_6</MonitorName>
+<MonitorCode>1227278312</MonitorCode>
+</Device>
+<Device Type="0" InsCode="6780103203">
+<InsID>6780103203</InsID>
+<Name>一氧化碳</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0110</Address>
+<DevTypeID>3058</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>709室_6</MonitorName>
+<MonitorCode>1227278312</MonitorCode>
+</Device>
+<Device Type="0" InsCode="6431827690">
+<InsID>6431827690</InsID>
+<Name>空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3043</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="20">(TH*256+TL)/10-2</Rule>
+</Rules>
+<MonitorName>709室_6</MonitorName>
+<MonitorCode>1227278312</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="4822073919">
+<InsCode>4822073919</InsCode>
+<Name>DPM设备7</Name>
+<Mac>100.105.80.170</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>3030</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="1583083711">
+<Name>dpm采控器7</Name>
+<Mac>100.194.215.147.46.31.26.76</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="4560036190">
+<InsID>4560036190</InsID>
+<Name>二氧化碳</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3004</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>509办公区</MonitorName>
+<MonitorCode>6768293179</MonitorCode>
+</Device>
+<Device Type="0" InsCode="9702627017">
+<InsID>9702627017</InsID>
+<Name>挥发性气体</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x010C</Address>
+<DevTypeID>3059</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="3">(TH*256+TL)/10</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>509办公区</MonitorName>
+<MonitorCode>6768293179</MonitorCode>
+</Device>
+<Device Type="0" InsCode="7614727812">
+<InsID>7614727812</InsID>
+<Name>空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3043</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="20">(TH*256+TL)/10-2</Rule>
+</Rules>
+<MonitorName>509办公区</MonitorName>
+<MonitorCode>6768293179</MonitorCode>
+</Device>
+<Device Type="0" InsCode="8791944743">
+<InsID>8791944743</InsID>
+<Name>一氧化碳</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0110</Address>
+<DevTypeID>3058</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>509办公区</MonitorName>
+<MonitorCode>6768293179</MonitorCode>
+</Device>
+<Device Type="0" InsCode="9336021306">
+<InsID>9336021306</InsID>
+<Name>空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3044</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="21">(TH*256+TL)/10+4</Rule>
+</Rules>
+<MonitorName>509办公区</MonitorName>
+<MonitorCode>6768293179</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="4014811226">
+<InsCode>4014811226</InsCode>
+<Name>DPM设备8</Name>
+<Mac>100.146.106.186</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>3030</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="6055297946">
+<Name>dpm采控器8</Name>
+<Mac>100.232.74.75.211.60.131.75</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="3100489419">
+<InsID>3100489419</InsID>
+<Name>空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3043</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="20">(TH*256+TL)/10-2</Rule>
+</Rules>
+<MonitorName>708办公区</MonitorName>
+<MonitorCode>7519968153</MonitorCode>
+</Device>
+<Device Type="0" InsCode="1571444498">
+<InsID>1571444498</InsID>
+<Name>一氧化碳</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0110</Address>
+<DevTypeID>3058</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>708办公区</MonitorName>
+<MonitorCode>7519968153</MonitorCode>
+</Device>
+<Device Type="0" InsCode="2795541425">
+<InsID>2795541425</InsID>
+<Name>挥发性气体</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x010C</Address>
+<DevTypeID>3059</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="3">(TH*256+TL)/10</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>708办公区</MonitorName>
+<MonitorCode>7519968153</MonitorCode>
+</Device>
+<Device Type="0" InsCode="8981896238">
+<InsID>8981896238</InsID>
+<Name>二氧化碳</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3004</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>708办公区</MonitorName>
+<MonitorCode>7519968153</MonitorCode>
+</Device>
+<Device Type="0" InsCode="3855248516">
+<InsID>3855248516</InsID>
+<Name>空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3044</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="21">(TH*256+TL)/10+4</Rule>
+</Rules>
+<MonitorName>708办公区</MonitorName>
+<MonitorCode>7519968153</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="4465571727">
+<InsCode>4465571727</InsCode>
+<Name>DPM设备9</Name>
+<Mac>100.41.84.154</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>3030</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="3222055656">
+<Name>dpm采控器9</Name>
+<Mac>100.113.165.127.88.125.136.32</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="7767738985">
+<InsID>7767738985</InsID>
+<Name>二氧化碳</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3004</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>709办公区</MonitorName>
+<MonitorCode>1825256853</MonitorCode>
+</Device>
+<Device Type="0" InsCode="3701998772">
+<InsID>3701998772</InsID>
+<Name>空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3043</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="20">(TH*256+TL)/10-2</Rule>
+</Rules>
+<MonitorName>709办公区</MonitorName>
+<MonitorCode>1825256853</MonitorCode>
+</Device>
+<Device Type="0" InsCode="3836172148">
+<InsID>3836172148</InsID>
+<Name>挥发性气体</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x010C</Address>
+<DevTypeID>3059</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="3">(TH*256+TL)/10</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>709办公区</MonitorName>
+<MonitorCode>1825256853</MonitorCode>
+</Device>
+<Device Type="0" InsCode="3036435836">
+<InsID>3036435836</InsID>
+<Name>空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3044</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="21">(TH*256+TL)/10+4</Rule>
+</Rules>
+<MonitorName>709办公区</MonitorName>
+<MonitorCode>1825256853</MonitorCode>
+</Device>
+<Device Type="0" InsCode="4017544012">
+<InsID>4017544012</InsID>
+<Name>一氧化碳</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0110</Address>
+<DevTypeID>3058</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>709办公区</MonitorName>
+<MonitorCode>1825256853</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="0" InsID="7338493927">
+<InsCode>7338493927</InsCode>
+<Name>DPM设备10</Name>
+<Mac>100.0.121.203</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>3030</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="5830798479">
+<Name>dpm采控器10</Name>
+<Mac>100.139.126.97.226.38.159.28</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="6449172647">
+<InsID>6449172647</InsID>
+<Name>空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3043</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="20">(TH*256+TL)/10-2</Rule>
+</Rules>
+<MonitorName>513会议室</MonitorName>
+<MonitorCode>4775970937</MonitorCode>
+</Device>
+<Device Type="0" InsCode="4858710488">
+<InsID>4858710488</InsID>
+<Name>挥发性气体</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x010C</Address>
+<DevTypeID>3059</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="3">(TH*256+TL)/10</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>513会议室</MonitorName>
+<MonitorCode>4775970937</MonitorCode>
+</Device>
+<Device Type="0" InsCode="5143030223">
+<InsID>5143030223</InsID>
+<Name>空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3044</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="21">(TH*256+TL)/10+4</Rule>
+</Rules>
+<MonitorName>513会议室</MonitorName>
+<MonitorCode>4775970937</MonitorCode>
+</Device>
+<Device Type="0" InsCode="3876042603">
+<InsID>3876042603</InsID>
+<Name>二氧化碳</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3004</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>513会议室</MonitorName>
+<MonitorCode>4775970937</MonitorCode>
+</Device>
+<Device Type="0" InsCode="8042275888">
+<InsID>8042275888</InsID>
+<Name>一氧化碳</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0110</Address>
+<DevTypeID>3058</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>513会议室</MonitorName>
+<MonitorCode>4775970937</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="0" InsID="9711560535">
+<InsCode>9711560535</InsCode>
+<Name>DPM设备11</Name>
+<Mac>100.133.207.119</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>3030</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="5943801543">
+<Name>dpm采控器11</Name>
+<Mac>100.179.108.65.227.240.56.221</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="5023752975">
+<InsID>5023752975</InsID>
+<Name>空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3043</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="20">(TH*256+TL)/10-2</Rule>
+</Rules>
+<MonitorName>7层楼梯通道</MonitorName>
+<MonitorCode>9039698698</MonitorCode>
+</Device>
+<Device Type="0" InsCode="2044434181">
+<InsID>2044434181</InsID>
+<Name>空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3044</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="21">(TH*256+TL)/10+4</Rule>
+</Rules>
+<MonitorName>7层楼梯通道</MonitorName>
+<MonitorCode>9039698698</MonitorCode>
+</Device>
+<Device Type="0" InsCode="5559357527">
+<InsID>5559357527</InsID>
+<Name>一氧化碳</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0110</Address>
+<DevTypeID>3058</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>7层楼梯通道</MonitorName>
+<MonitorCode>9039698698</MonitorCode>
+</Device>
+<Device Type="0" InsCode="8230318004">
+<InsID>8230318004</InsID>
+<Name>挥发性气体</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x010C</Address>
+<DevTypeID>3059</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="3">(TH*256+TL)/10</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>7层楼梯通道</MonitorName>
+<MonitorCode>9039698698</MonitorCode>
+</Device>
+<Device Type="0" InsCode="4128312532">
+<InsID>4128312532</InsID>
+<Name>二氧化碳a</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3004</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>7层楼梯通道</MonitorName>
+<MonitorCode>9039698698</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="0" InsID="1846814146">
+<InsCode>1846814146</InsCode>
+<Name>DPM设备12</Name>
+<Mac>100.193.30.147</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>3030</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="1880846847">
+<Name>dpm采控器12</Name>
+<Mac>100.210.248.142.158.57.61.80</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="4081806780">
+<InsID>4081806780</InsID>
+<Name>二氧化碳</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3004</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>510办公区</MonitorName>
+<MonitorCode>7961930486</MonitorCode>
+</Device>
+<Device Type="0" InsCode="1311633157">
+<InsID>1311633157</InsID>
+<Name>空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3043</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="20">(TH*256+TL)/10-2</Rule>
+</Rules>
+<MonitorName>510办公区</MonitorName>
+<MonitorCode>7961930486</MonitorCode>
+</Device>
+<Device Type="0" InsCode="4180301540">
+<InsID>4180301540</InsID>
+<Name>空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3044</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="21">(TH*256+TL)/10+4</Rule>
+</Rules>
+<MonitorName>510办公区</MonitorName>
+<MonitorCode>7961930486</MonitorCode>
+</Device>
+<Device Type="0" InsCode="2478142319">
+<InsID>2478142319</InsID>
+<Name>一氧化碳</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0110</Address>
+<DevTypeID>3058</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>510办公区</MonitorName>
+<MonitorCode>7961930486</MonitorCode>
+</Device>
+<Device Type="0" InsCode="6428538647">
+<InsID>6428538647</InsID>
+<Name>挥发性气体</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x010C</Address>
+<DevTypeID>3059</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="3">(TH*256+TL)/10</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>510办公区</MonitorName>
+<MonitorCode>7961930486</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="5917265149">
+<InsCode>5917265149</InsCode>
+<Name>测试边缘网关</Name>
+<Mac>125.0.1.205</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="9791408382">
+<Name>测试采控器</Name>
+<Mac>125.0.1.222.90.112.250.1</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="2816924334">
+<InsID>2816924334</InsID>
+<Name>测试水分</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>测试</MonitorName>
+<MonitorCode>5086858428</MonitorCode>
+</Device>
+<Device Type="0" InsCode="7655412225">
+<InsID>7655412225</InsID>
+<Name>测试湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>测试</MonitorName>
+<MonitorCode>5086858428</MonitorCode>
+</Device>
+<Device Type="0" InsCode="5491405160">
+<InsID>5491405160</InsID>
+<Name>测试温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>测试</MonitorName>
+<MonitorCode>5086858428</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="5067606827">
+<InsCode>5067606827</InsCode>
+<Name>测试边缘网关2</Name>
+<Mac>100.37.213.90</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="6860676897">
+<Name>测试采控器2</Name>
+<Mac>100.210.131.170.64.10.244.100</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="3156974801">
+<InsID>3156974801</InsID>
+<Name>测试温度2</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>测试</MonitorName>
+<MonitorCode>5086858428</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="1" InsID="3995584380">
+<InsCode>3995584380</InsCode>
+<Name>边缘网关BI</Name>
+<Mac>0.0.80.80</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>60</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="8879014057">
+<Name>采控器BI</Name>
+<Mac>0.0.0.0.80.80.80.80</Mac>
+<Cycle>60</Cycle>
+<Device Type="0" InsCode="5536445967">
+<InsID>5536445967</InsID>
+<Name>控制BI</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>4002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+</Device>
+<Device Type="0" InsCode="7486235660">
+<InsID>7486235660</InsID>
+<Name>空气温度BI</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="3389740115">
+<InsCode>3389740115</InsCode>
+<Name>边缘网关</Name>
+<Mac>0.0.80.81</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="4761844351">
+<Name>采控器</Name>
+<Mac>0.0.0.0.10.10.10.2</Mac>
+<Cycle>0</Cycle>
+<Device Type="0" InsCode="1052208009">
+<InsID>1052208009</InsID>
+<Name>空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>大棚_2</MonitorName>
+<MonitorCode>1120008444</MonitorCode>
+</Device>
+<Device Type="0" InsCode="9540248898">
+<InsID>9540248898</InsID>
+<Name>空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>大棚_2</MonitorName>
+<MonitorCode>1120008444</MonitorCode>
+</Device>
+<Device Type="0" InsCode="6253404216">
+<InsID>6253404216</InsID>
+<Name>土壤水分</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>大棚_2</MonitorName>
+<MonitorCode>1120008444</MonitorCode>
+</Device>
+</SC>
+<SC Type="0" InsCode="3890370961">
+<Name>采控器</Name>
+<Mac>0.0.0.0.10.10.10.1</Mac>
+<Cycle>0</Cycle>
+<Device Type="0" InsCode="8552608524">
+<InsID>8552608524</InsID>
+<Name>空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>大棚_1</MonitorName>
+<MonitorCode>9675266052</MonitorCode>
+</Device>
+<Device Type="0" InsCode="5788398293">
+<InsID>5788398293</InsID>
+<Name>空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>大棚_1</MonitorName>
+<MonitorCode>9675266052</MonitorCode>
+</Device>
+<Device Type="0" InsCode="3759140866">
+<InsID>3759140866</InsID>
+<Name>土壤水分</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>大棚_1</MonitorName>
+<MonitorCode>9675266052</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="3684416713">
+<InsCode>3684416713</InsCode>
+<Name>边缘网关</Name>
+<Mac>0.0.80.83</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="7824994369">
+<Name>采控器</Name>
+<Mac>0.0.0.0.10.10.10.3</Mac>
+<Cycle>0</Cycle>
+<Device Type="0" InsCode="2968225981">
+<InsID>2968225981</InsID>
+<Name>土壤水分</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>大棚_3</MonitorName>
+<MonitorCode>3236443887</MonitorCode>
+</Device>
+<Device Type="0" InsCode="3170348920">
+<InsID>3170348920</InsID>
+<Name>空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>大棚_3</MonitorName>
+<MonitorCode>3236443887</MonitorCode>
+</Device>
+<Device Type="0" InsCode="5897886325">
+<InsID>5897886325</InsID>
+<Name>空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>大棚_3</MonitorName>
+<MonitorCode>3236443887</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="4953683151">
+<InsCode>4953683151</InsCode>
+<Name>边缘网关</Name>
+<Mac>0.0.80.84</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="8424072372">
+<Name>采控器</Name>
+<Mac>0.0.0.0.10.10.10.4</Mac>
+<Cycle>0</Cycle>
+<Device Type="0" InsCode="5652511275">
+<InsID>5652511275</InsID>
+<Name>空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>大棚_4</MonitorName>
+<MonitorCode>4723877477</MonitorCode>
+</Device>
+<Device Type="0" InsCode="9374364890">
+<InsID>9374364890</InsID>
+<Name>土壤水分</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>大棚_4</MonitorName>
+<MonitorCode>4723877477</MonitorCode>
+</Device>
+<Device Type="0" InsCode="3901247620">
+<InsID>3901247620</InsID>
+<Name>空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>大棚_4</MonitorName>
+<MonitorCode>4723877477</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="1398920563">
+<InsCode>1398920563</InsCode>
+<Name>边缘网关</Name>
+<Mac>0.0.80.85</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="9317862376">
+<Name>采控器</Name>
+<Mac>0.0.0.0.10.10.10.5</Mac>
+<Cycle>0</Cycle>
+<Device Type="0" InsCode="3727594084">
+<InsID>3727594084</InsID>
+<Name>空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>大棚_5</MonitorName>
+<MonitorCode>9558662334</MonitorCode>
+</Device>
+<Device Type="0" InsCode="1958061850">
+<InsID>1958061850</InsID>
+<Name>空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>大棚_5</MonitorName>
+<MonitorCode>9558662334</MonitorCode>
+</Device>
+<Device Type="0" InsCode="6932223471">
+<InsID>6932223471</InsID>
+<Name>土壤水分</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>大棚_5</MonitorName>
+<MonitorCode>9558662334</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="4272069819">
+<InsCode>4272069819</InsCode>
+<Name>边缘网关</Name>
+<Mac>0.0.80.86</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="8912274016">
+<Name>采控器</Name>
+<Mac>0.0.0.0.10.10.10.6</Mac>
+<Cycle>0</Cycle>
+<Device Type="0" InsCode="1908175496">
+<InsID>1908175496</InsID>
+<Name>空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>大棚_6</MonitorName>
+<MonitorCode>9388576266</MonitorCode>
+</Device>
+<Device Type="0" InsCode="5662231865">
+<InsID>5662231865</InsID>
+<Name>空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>大棚_6</MonitorName>
+<MonitorCode>9388576266</MonitorCode>
+</Device>
+<Device Type="0" InsCode="1228763137">
+<InsID>1228763137</InsID>
+<Name>土壤水分</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>大棚_6</MonitorName>
+<MonitorCode>9388576266</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="5405972892">
+<InsCode>5405972892</InsCode>
+<Name>边缘网关</Name>
+<Mac>0.0.80.87</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="2849536064">
+<Name>采控器</Name>
+<Mac>0.0.0.0.10.10.10.7</Mac>
+<Cycle>0</Cycle>
+<Device Type="0" InsCode="5224391335">
+<InsID>5224391335</InsID>
+<Name>空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>大棚_7</MonitorName>
+<MonitorCode>4491523562</MonitorCode>
+</Device>
+<Device Type="0" InsCode="8188016204">
+<InsID>8188016204</InsID>
+<Name>空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>大棚_7</MonitorName>
+<MonitorCode>4491523562</MonitorCode>
+</Device>
+<Device Type="0" InsCode="1998683983">
+<InsID>1998683983</InsID>
+<Name>土壤水分</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>大棚_7</MonitorName>
+<MonitorCode>4491523562</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="8047908958">
+<InsCode>8047908958</InsCode>
+<Name>边缘网关</Name>
+<Mac>0.0.80.88</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="5631446642">
+<Name>采控器</Name>
+<Mac>0.0.0.0.10.10.10.8</Mac>
+<Cycle>0</Cycle>
+<Device Type="0" InsCode="2201936077">
+<InsID>2201936077</InsID>
+<Name>空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>大棚_8</MonitorName>
+<MonitorCode>8198483146</MonitorCode>
+</Device>
+<Device Type="0" InsCode="8637332811">
+<InsID>8637332811</InsID>
+<Name>空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>大棚_8</MonitorName>
+<MonitorCode>8198483146</MonitorCode>
+</Device>
+<Device Type="0" InsCode="1325649424">
+<InsID>1325649424</InsID>
+<Name>土壤水分</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>大棚_8</MonitorName>
+<MonitorCode>8198483146</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="5197196893">
+<InsCode>5197196893</InsCode>
+<Name>边缘网关</Name>
+<Mac>0.0.80.89</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="7796012693">
+<Name>采控器</Name>
+<Mac>0.0.0.0.10.10.10.9</Mac>
+<Cycle>0</Cycle>
+<Device Type="0" InsCode="8062024713">
+<InsID>8062024713</InsID>
+<Name>土壤水分</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>大棚_9</MonitorName>
+<MonitorCode>2659721824</MonitorCode>
+</Device>
+<Device Type="0" InsCode="6165154878">
+<InsID>6165154878</InsID>
+<Name>空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>大棚_9</MonitorName>
+<MonitorCode>2659721824</MonitorCode>
+</Device>
+<Device Type="0" InsCode="7662605413">
+<InsID>7662605413</InsID>
+<Name>空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>大棚_9</MonitorName>
+<MonitorCode>2659721824</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="3242352922">
+<InsCode>3242352922</InsCode>
+<Name>边缘网关</Name>
+<Mac>0.0.80.90</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="3166066732">
+<Name>采控器</Name>
+<Mac>0.0.0.0.80.80.80.80</Mac>
+<Cycle>0</Cycle>
+<Device Type="0" InsCode="5771603468">
+<InsID>5771603468</InsID>
+<Name>空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>大棚_10</MonitorName>
+<MonitorCode>9061938665</MonitorCode>
+</Device>
+<Device Type="0" InsCode="8290562229">
+<InsID>8290562229</InsID>
+<Name>土壤水分</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>大棚_10</MonitorName>
+<MonitorCode>9061938665</MonitorCode>
+</Device>
+<Device Type="0" InsCode="7525637728">
+<InsID>7525637728</InsID>
+<Name>空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>大棚_10</MonitorName>
+<MonitorCode>9061938665</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="7240543016">
+<InsCode>7240543016</InsCode>
+<Name>边缘网关</Name>
+<Mac>1.1.90.1</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="3805559453">
+<Name>采控器</Name>
+<Mac>1.1.90.1.1.1.90.1</Mac>
+<Cycle>0</Cycle>
+<Device Type="0" InsCode="3259168057">
+<InsID>3259168057</InsID>
+<Name>喷淋</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2108</Address>
+<DevTypeID>4002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>大棚_1</MonitorName>
+<MonitorCode>4240720912</MonitorCode>
+</Device>
+<Device Type="0" InsCode="7517397431">
+<InsID>7517397431</InsID>
+<Name>温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>大棚_1</MonitorName>
+<MonitorCode>4240720912</MonitorCode>
+</Device>
+<Device Type="0" InsCode="1251985424">
+<InsID>1251985424</InsID>
+<Name>湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>大棚_1</MonitorName>
+<MonitorCode>4240720912</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="7872235679">
+<InsCode>7872235679</InsCode>
+<Name>边缘网关</Name>
+<Mac>1.1.90.2</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="1403204556">
+<Name>采控器</Name>
+<Mac>1.1.90.2.1.1.90.2</Mac>
+<Cycle>0</Cycle>
+<Device Type="0" InsCode="3405391941">
+<InsID>3405391941</InsID>
+<Name>温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>大棚_2</MonitorName>
+<MonitorCode>1799625159</MonitorCode>
+</Device>
+<Device Type="0" InsCode="3495177160">
+<InsID>3495177160</InsID>
+<Name>湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>大棚_2</MonitorName>
+<MonitorCode>1799625159</MonitorCode>
+</Device>
+<Device Type="0" InsCode="2553651637">
+<InsID>2553651637</InsID>
+<Name>喷淋</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2108</Address>
+<DevTypeID>4002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>大棚_2</MonitorName>
+<MonitorCode>1799625159</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="2517385901">
+<InsCode>2517385901</InsCode>
+<Name>边缘网关</Name>
+<Mac>1.1.90.3</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="3474182307">
+<Name>采控器</Name>
+<Mac>1.1.90.3.1.1.90.3</Mac>
+<Cycle>0</Cycle>
+<Device Type="0" InsCode="9372939411">
+<InsID>9372939411</InsID>
+<Name>湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>大棚_3</MonitorName>
+<MonitorCode>3586319361</MonitorCode>
+</Device>
+<Device Type="0" InsCode="1488565439">
+<InsID>1488565439</InsID>
+<Name>温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>大棚_3</MonitorName>
+<MonitorCode>3586319361</MonitorCode>
+</Device>
+<Device Type="0" InsCode="8826875153">
+<InsID>8826875153</InsID>
+<Name>喷淋</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2108</Address>
+<DevTypeID>4002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>大棚_3</MonitorName>
+<MonitorCode>3586319361</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="3236339684">
+<InsCode>3236339684</InsCode>
+<Name>边缘网关</Name>
+<Mac>1.1.90.4</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="5512172506">
+<Name>采控器</Name>
+<Mac>1.1.90.4.1.1.90.4</Mac>
+<Cycle>0</Cycle>
+<Device Type="0" InsCode="7702737464">
+<InsID>7702737464</InsID>
+<Name>温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>大棚_4</MonitorName>
+<MonitorCode>9358037352</MonitorCode>
+</Device>
+<Device Type="0" InsCode="2042365596">
+<InsID>2042365596</InsID>
+<Name>喷淋</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2108</Address>
+<DevTypeID>4002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>大棚_4</MonitorName>
+<MonitorCode>9358037352</MonitorCode>
+</Device>
+<Device Type="0" InsCode="2941356754">
+<InsID>2941356754</InsID>
+<Name>湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>大棚_4</MonitorName>
+<MonitorCode>9358037352</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="9589295345">
+<InsCode>9589295345</InsCode>
+<Name>边缘网关</Name>
+<Mac>1.1.90.5</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="3726001774">
+<Name>采控器</Name>
+<Mac>1.1.90.5.1.1.90.5</Mac>
+<Cycle>0</Cycle>
+<Device Type="0" InsCode="7866438350">
+<InsID>7866438350</InsID>
+<Name>湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>大棚_5</MonitorName>
+<MonitorCode>4626545061</MonitorCode>
+</Device>
+<Device Type="0" InsCode="4095538519">
+<InsID>4095538519</InsID>
+<Name>温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>大棚_5</MonitorName>
+<MonitorCode>4626545061</MonitorCode>
+</Device>
+<Device Type="0" InsCode="2356984181">
+<InsID>2356984181</InsID>
+<Name>喷淋</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2108</Address>
+<DevTypeID>4002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>大棚_5</MonitorName>
+<MonitorCode>4626545061</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="1007892650">
+<InsCode>1007892650</InsCode>
+<Name>边缘网关</Name>
+<Mac>1.1.90.6</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="2360334466">
+<Name>采控器</Name>
+<Mac>1.1.90.6.1.1.90.6</Mac>
+<Cycle>0</Cycle>
+<Device Type="0" InsCode="6395620188">
+<InsID>6395620188</InsID>
+<Name>温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>大棚_6</MonitorName>
+<MonitorCode>2210593227</MonitorCode>
+</Device>
+<Device Type="0" InsCode="8518546099">
+<InsID>8518546099</InsID>
+<Name>喷淋</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2108</Address>
+<DevTypeID>4002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>大棚_6</MonitorName>
+<MonitorCode>2210593227</MonitorCode>
+</Device>
+<Device Type="0" InsCode="1530048858">
+<InsID>1530048858</InsID>
+<Name>湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>大棚_6</MonitorName>
+<MonitorCode>2210593227</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="8340088992">
+<InsCode>8340088992</InsCode>
+<Name>边缘网关</Name>
+<Mac>1.1.90.7</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="1096249466">
+<Name>采控器</Name>
+<Mac>1.1.90.7.1.1.90.7</Mac>
+<Cycle>0</Cycle>
+<Device Type="0" InsCode="1794367140">
+<InsID>1794367140</InsID>
+<Name>温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>大棚_7</MonitorName>
+<MonitorCode>3295455677</MonitorCode>
+</Device>
+<Device Type="0" InsCode="9179828129">
+<InsID>9179828129</InsID>
+<Name>湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>大棚_7</MonitorName>
+<MonitorCode>3295455677</MonitorCode>
+</Device>
+<Device Type="0" InsCode="6132006505">
+<InsID>6132006505</InsID>
+<Name>喷淋</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2108</Address>
+<DevTypeID>4002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>大棚_7</MonitorName>
+<MonitorCode>3295455677</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="6834564249">
+<InsCode>6834564249</InsCode>
+<Name>边缘网关</Name>
+<Mac>1.1.90.8</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="7593188366">
+<Name>采控器</Name>
+<Mac>1.1.90.8.1.1.90.8</Mac>
+<Cycle>0</Cycle>
+<Device Type="0" InsCode="7841658476">
+<InsID>7841658476</InsID>
+<Name>温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>大棚_8</MonitorName>
+<MonitorCode>6267643613</MonitorCode>
+</Device>
+<Device Type="0" InsCode="1428324796">
+<InsID>1428324796</InsID>
+<Name>喷淋</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2108</Address>
+<DevTypeID>4002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>大棚_8</MonitorName>
+<MonitorCode>6267643613</MonitorCode>
+</Device>
+<Device Type="0" InsCode="1956844088">
+<InsID>1956844088</InsID>
+<Name>湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>大棚_8</MonitorName>
+<MonitorCode>6267643613</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="8611204215">
+<InsCode>8611204215</InsCode>
+<Name>边缘网关</Name>
+<Mac>1.1.90.9</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="7178865739">
+<Name>采控器</Name>
+<Mac>1.1.90.9.1.1.90.9</Mac>
+<Cycle>0</Cycle>
+<Device Type="0" InsCode="4359811049">
+<InsID>4359811049</InsID>
+<Name>温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>大棚_9</MonitorName>
+<MonitorCode>6748867633</MonitorCode>
+</Device>
+<Device Type="0" InsCode="3151221287">
+<InsID>3151221287</InsID>
+<Name>喷淋</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2108</Address>
+<DevTypeID>4002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>大棚_9</MonitorName>
+<MonitorCode>6748867633</MonitorCode>
+</Device>
+<Device Type="0" InsCode="9840742192">
+<InsID>9840742192</InsID>
+<Name>湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>大棚_9</MonitorName>
+<MonitorCode>6748867633</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="9914665800">
+<InsCode>9914665800</InsCode>
+<Name>边缘网关</Name>
+<Mac>1.1.90.10</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="4719237716">
+<Name>采控器</Name>
+<Mac>1.1.90.10.1.1.90.10</Mac>
+<Cycle>0</Cycle>
+<Device Type="0" InsCode="2955267864">
+<InsID>2955267864</InsID>
+<Name>温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>大棚_10</MonitorName>
+<MonitorCode>3189526501</MonitorCode>
+</Device>
+<Device Type="0" InsCode="6833010463">
+<InsID>6833010463</InsID>
+<Name>湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>大棚_10</MonitorName>
+<MonitorCode>3189526501</MonitorCode>
+</Device>
+<Device Type="0" InsCode="5280657550">
+<InsID>5280657550</InsID>
+<Name>喷淋</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2108</Address>
+<DevTypeID>4002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>大棚_10</MonitorName>
+<MonitorCode>3189526501</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="6167133166">
+<InsCode>6167133166</InsCode>
+<Name>边缘网关</Name>
+<Mac>2.2.2.1</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="3293853654">
+<Name>采控器</Name>
+<Mac>2.2.2.2.2.2.2.1</Mac>
+<Cycle>0</Cycle>
+<Device Type="0" InsCode="4686048093">
+<InsID>4686048093</InsID>
+<Name>喷淋</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2108</Address>
+<DevTypeID>4002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>场所_1</MonitorName>
+<MonitorCode>4279600428</MonitorCode>
+</Device>
+<Device Type="0" InsCode="4557209687">
+<InsID>4557209687</InsID>
+<Name>湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>场所_1</MonitorName>
+<MonitorCode>4279600428</MonitorCode>
+</Device>
+<Device Type="0" InsCode="7554511109">
+<InsID>7554511109</InsID>
+<Name>温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>场所_1</MonitorName>
+<MonitorCode>4279600428</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="4078527396">
+<InsCode>4078527396</InsCode>
+<Name>边缘网关</Name>
+<Mac>2.2.2.2</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="4695395573">
+<Name>采控器</Name>
+<Mac>2.2.2.2.2.2.2.2</Mac>
+<Cycle>0</Cycle>
+<Device Type="0" InsCode="8708887176">
+<InsID>8708887176</InsID>
+<Name>湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>场所_2</MonitorName>
+<MonitorCode>9711624428</MonitorCode>
+</Device>
+<Device Type="0" InsCode="8965345262">
+<InsID>8965345262</InsID>
+<Name>喷淋</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2108</Address>
+<DevTypeID>4002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>场所_2</MonitorName>
+<MonitorCode>9711624428</MonitorCode>
+</Device>
+<Device Type="0" InsCode="3001955344">
+<InsID>3001955344</InsID>
+<Name>温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>场所_2</MonitorName>
+<MonitorCode>9711624428</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="4521061873">
+<InsCode>4521061873</InsCode>
+<Name>边缘网关</Name>
+<Mac>2.2.2.3</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="3529551055">
+<Name>采控器</Name>
+<Mac>2.2.2.2.2.2.2.3</Mac>
+<Cycle>0</Cycle>
+<Device Type="0" InsCode="8778105555">
+<InsID>8778105555</InsID>
+<Name>湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>场所_3</MonitorName>
+<MonitorCode>1396713863</MonitorCode>
+</Device>
+<Device Type="0" InsCode="3763943039">
+<InsID>3763943039</InsID>
+<Name>温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>场所_3</MonitorName>
+<MonitorCode>1396713863</MonitorCode>
+</Device>
+<Device Type="0" InsCode="5185814286">
+<InsID>5185814286</InsID>
+<Name>喷淋</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2108</Address>
+<DevTypeID>4002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>场所_3</MonitorName>
+<MonitorCode>1396713863</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="2215242041">
+<InsCode>2215242041</InsCode>
+<Name>边缘网关</Name>
+<Mac>2.2.2.4</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="2531758723">
+<Name>采控器</Name>
+<Mac>2.2.2.2.2.2.2.4</Mac>
+<Cycle>0</Cycle>
+<Device Type="0" InsCode="1611715905">
+<InsID>1611715905</InsID>
+<Name>温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>场所_4</MonitorName>
+<MonitorCode>7877536065</MonitorCode>
+</Device>
+<Device Type="0" InsCode="3684182718">
+<InsID>3684182718</InsID>
+<Name>湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>场所_4</MonitorName>
+<MonitorCode>7877536065</MonitorCode>
+</Device>
+<Device Type="0" InsCode="7900562104">
+<InsID>7900562104</InsID>
+<Name>喷淋</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2108</Address>
+<DevTypeID>4002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>场所_4</MonitorName>
+<MonitorCode>7877536065</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="3037877191">
+<InsCode>3037877191</InsCode>
+<Name>边缘网关</Name>
+<Mac>2.2.2.5</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="1638148441">
+<Name>采控器</Name>
+<Mac>2.2.2.2.2.2.2.5</Mac>
+<Cycle>0</Cycle>
+<Device Type="0" InsCode="1895207470">
+<InsID>1895207470</InsID>
+<Name>湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>场所_5</MonitorName>
+<MonitorCode>8857727500</MonitorCode>
+</Device>
+<Device Type="0" InsCode="6227961515">
+<InsID>6227961515</InsID>
+<Name>温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>场所_5</MonitorName>
+<MonitorCode>8857727500</MonitorCode>
+</Device>
+<Device Type="0" InsCode="2337186588">
+<InsID>2337186588</InsID>
+<Name>喷淋</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2108</Address>
+<DevTypeID>4002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>场所_5</MonitorName>
+<MonitorCode>8857727500</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="5439940001">
+<InsCode>5439940001</InsCode>
+<Name>胡德龙测试边缘网关1</Name>
+<Mac>100.189.203.177</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>10</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="4376255485">
+<Name>胡德龙测试采控器1</Name>
+<Mac>100.28.62.9.17.253.56.187</Mac>
+<Cycle>0</Cycle>
+<Device Type="0" InsCode="5840661351">
+<InsID>5840661351</InsID>
+<Name>胡德龙测试传感器1</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>胡德龙测试大棚1</MonitorName>
+<MonitorCode>5751913082</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="3779929420">
+<InsCode>3779929420</InsCode>
+<Name>胡德龙测试边缘网关2</Name>
+<Mac>100.167.89.120</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>0</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="2067621354">
+<Name>胡德龙测试采控器2</Name>
+<Mac>100.167.164.145.133.173.6.56</Mac>
+<Cycle>0</Cycle>
+<Device Type="0" InsCode="1919312506">
+<InsID>1919312506</InsID>
+<Name>胡德龙测试传感器2</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>胡德龙测试大棚1</MonitorName>
+<MonitorCode>5751913082</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="1" InsID="1710846182">
+<InsCode>1710846182</InsCode>
+<Name>边缘网关1</Name>
+<Mac>2.2.2.77</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>60</Cycle>
+<WorkModel>2</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="2901735704">
+<Name>采控器1</Name>
+<Mac>1.2.3.4.5.6.7.77</Mac>
+<Cycle>60</Cycle>
+<Device Type="0" InsCode="6821483598">
+<InsID>6821483598</InsID>
+<Name>1#土壤湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x010C</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>7614027238</MonitorCode>
+</Device>
+<Device Type="0" InsCode="3676360806">
+<InsID>3676360806</InsID>
+<Name>3#光照</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0128</Address>
+<DevTypeID>3003</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="22">S:1:5.2F</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>7614027238</MonitorCode>
+</Device>
+<Device Type="0" InsCode="9087214659">
+<InsID>9087214659</InsID>
+<Name>2#光照</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0114</Address>
+<DevTypeID>3003</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="22">S:1:5.2F</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>7614027238</MonitorCode>
+</Device>
+<Device Type="0" InsCode="1730403948">
+<InsID>1730403948</InsID>
+<Name>2#土壤湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0120</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>7614027238</MonitorCode>
+</Device>
+<Device Type="0" InsCode="9782548586">
+<InsID>9782548586</InsID>
+<Name>1#卷帘控制器4</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2114</Address>
+<DevTypeID>4003</DevTypeID>
+<Rules/>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>7614027238</MonitorCode>
+</Device>
+<Device Type="0" InsCode="5647057427">
+<InsID>5647057427</InsID>
+<Name>1#卷帘控制器3</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2110</Address>
+<DevTypeID>4003</DevTypeID>
+<Rules/>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>7614027238</MonitorCode>
+</Device>
+<Device Type="0" InsCode="7282611556">
+<InsID>7282611556</InsID>
+<Name>1#空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>7614027238</MonitorCode>
+</Device>
+<Device Type="0" InsCode="8539961757">
+<InsID>8539961757</InsID>
+<Name>2#空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x011C</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>7614027238</MonitorCode>
+</Device>
+<Device Type="0" InsCode="8611463789">
+<InsID>8611463789</InsID>
+<Name>1#空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>7614027238</MonitorCode>
+</Device>
+<Device Type="0" InsCode="5871139530">
+<InsID>5871139530</InsID>
+<Name>2#空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0118</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>7614027238</MonitorCode>
+</Device>
+<Device Type="0" InsCode="4358951295">
+<InsID>4358951295</InsID>
+<Name>1#卷帘控制器5</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2120</Address>
+<DevTypeID>4003</DevTypeID>
+<Rules/>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>7614027238</MonitorCode>
+</Device>
+<Device Type="0" InsCode="3673964744">
+<InsID>3673964744</InsID>
+<Name>1#光照</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3003</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="22">S:1:5.2F</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>7614027238</MonitorCode>
+</Device>
+<Device Type="0" InsCode="2406044253">
+<InsID>2406044253</InsID>
+<Name>3#空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0130</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>7614027238</MonitorCode>
+</Device>
+<Device Type="0" InsCode="4286828351">
+<InsID>4286828351</InsID>
+<Name>2#喷淋控制器</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2170</Address>
+<DevTypeID>4002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>7614027238</MonitorCode>
+</Device>
+<Device Type="0" InsCode="8024587904">
+<InsID>8024587904</InsID>
+<Name>1#卷帘控制器6</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2124</Address>
+<DevTypeID>4003</DevTypeID>
+<Rules/>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>7614027238</MonitorCode>
+</Device>
+<Device Type="0" InsCode="6615640468">
+<InsID>6615640468</InsID>
+<Name>1#卷帘控制器1</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2100</Address>
+<DevTypeID>4003</DevTypeID>
+<Rules/>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>7614027238</MonitorCode>
+</Device>
+<Device Type="0" InsCode="6847697374">
+<InsID>6847697374</InsID>
+<Name>1#卷帘控制器2</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2104</Address>
+<DevTypeID>4003</DevTypeID>
+<Rules/>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>7614027238</MonitorCode>
+</Device>
+<Device Type="0" InsCode="1698887885">
+<InsID>1698887885</InsID>
+<Name>3#空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x012C</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>7614027238</MonitorCode>
+</Device>
+<Device Type="0" InsCode="9507676750">
+<InsID>9507676750</InsID>
+<Name>3#土壤湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0134</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>7614027238</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="0" InsID="9325803601">
+<InsCode>9325803601</InsCode>
+<Name>边缘网关1</Name>
+<Mac>241.0.0.1</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="8297550647">
+<Name>采控器1</Name>
+<Mac>0.0.0.241.0.0.0.1</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="2072976675">
+<InsID>2072976675</InsID>
+<Name>光照1</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0114</Address>
+<DevTypeID>3003</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="22">S:1:5.2F</Rule>
+</Rules>
+<MonitorName>测试网关场所1</MonitorName>
+<MonitorCode>3004632544</MonitorCode>
+</Device>
+<Device Type="0" InsCode="4651912738">
+<InsID>4651912738</InsID>
+<Name>土壤水分1</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x010c</Address>
+<DevTypeID>3031</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>测试网关场所1</MonitorName>
+<MonitorCode>3004632544</MonitorCode>
+</Device>
+<Device Type="0" InsCode="2015496021">
+<InsID>2015496021</InsID>
+<Name>土壤温度1</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>测试网关场所1</MonitorName>
+<MonitorCode>3004632544</MonitorCode>
+</Device>
+<Device Type="0" InsCode="7457908041">
+<InsID>7457908041</InsID>
+<Name>CO2传感器1</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0110</Address>
+<DevTypeID>3004</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+</Rules>
+<MonitorName>测试网关场所1</MonitorName>
+<MonitorCode>3004632544</MonitorCode>
+</Device>
+<Device Type="0" InsCode="8921888104">
+<InsID>8921888104</InsID>
+<Name>开关控制器</Name>
+<WorkStatus>3</WorkStatus>
+<Address>0x2100</Address>
+<DevTypeID>4000</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>测试网关场所1</MonitorName>
+<MonitorCode>3004632544</MonitorCode>
+</Device>
+<Device Type="0" InsCode="5363213381">
+<InsID>5363213381</InsID>
+<Name>空气湿度传感器1</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>测试网关场所1</MonitorName>
+<MonitorCode>3004632544</MonitorCode>
+</Device>
+<Device Type="0" InsCode="9629810617">
+<InsID>9629810617</InsID>
+<Name>空气温度传感器1</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>测试网关场所1</MonitorName>
+<MonitorCode>3004632544</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="0" InsID="2821251842">
+<InsCode>2821251842</InsCode>
+<Name>边缘网关2</Name>
+<Mac>241.0.0.2</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="8278332175">
+<Name>采控器2</Name>
+<Mac>0.0.0.241.0.0.0.2</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="4898345660">
+<InsID>4898345660</InsID>
+<Name>土壤温度2</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>测试网关场所2</MonitorName>
+<MonitorCode>4561885226</MonitorCode>
+</Device>
+<Device Type="0" InsCode="5608526206">
+<InsID>5608526206</InsID>
+<Name>空气温度传感器2</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>测试网关场所2</MonitorName>
+<MonitorCode>4561885226</MonitorCode>
+</Device>
+<Device Type="0" InsCode="9876368770">
+<InsID>9876368770</InsID>
+<Name>空气湿度传感器2</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>测试网关场所2</MonitorName>
+<MonitorCode>4561885226</MonitorCode>
+</Device>
+<Device Type="0" InsCode="8590140737">
+<InsID>8590140737</InsID>
+<Name>CO2传感器2</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0110</Address>
+<DevTypeID>3004</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+</Rules>
+<MonitorName>测试网关场所2</MonitorName>
+<MonitorCode>4561885226</MonitorCode>
+</Device>
+<Device Type="0" InsCode="3116490430">
+<InsID>3116490430</InsID>
+<Name>土壤水分2</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x010c</Address>
+<DevTypeID>3031</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>测试网关场所2</MonitorName>
+<MonitorCode>4561885226</MonitorCode>
+</Device>
+<Device Type="0" InsCode="7635182733">
+<InsID>7635182733</InsID>
+<Name>光照2</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0114</Address>
+<DevTypeID>3003</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="22">S:1:5.2F</Rule>
+</Rules>
+<MonitorName>测试网关场所2</MonitorName>
+<MonitorCode>4561885226</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="0" InsID="5058938263">
+<InsCode>5058938263</InsCode>
+<Name>边缘网关3</Name>
+<Mac>241.0.0.3</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="1669554249">
+<Name>采控器3</Name>
+<Mac>0.0.0.241.0.0.0.3</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="5593825028">
+<InsID>5593825028</InsID>
+<Name>光照3</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0114</Address>
+<DevTypeID>3003</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="22">S:1:5.2F</Rule>
+</Rules>
+<MonitorName>测试网关场所3</MonitorName>
+<MonitorCode>1450832902</MonitorCode>
+</Device>
+<Device Type="0" InsCode="2819877381">
+<InsID>2819877381</InsID>
+<Name>土壤温度3</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>测试网关场所3</MonitorName>
+<MonitorCode>1450832902</MonitorCode>
+</Device>
+<Device Type="0" InsCode="6509770610">
+<InsID>6509770610</InsID>
+<Name>土壤水分3</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x010c</Address>
+<DevTypeID>3031</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>测试网关场所3</MonitorName>
+<MonitorCode>1450832902</MonitorCode>
+</Device>
+<Device Type="0" InsCode="6419237383">
+<InsID>6419237383</InsID>
+<Name>CO2传感器3</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0110</Address>
+<DevTypeID>3004</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+</Rules>
+<MonitorName>测试网关场所3</MonitorName>
+<MonitorCode>1450832902</MonitorCode>
+</Device>
+<Device Type="0" InsCode="5981549733">
+<InsID>5981549733</InsID>
+<Name>空气温度传感器3</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>测试网关场所3</MonitorName>
+<MonitorCode>1450832902</MonitorCode>
+</Device>
+<Device Type="0" InsCode="1024670987">
+<InsID>1024670987</InsID>
+<Name>空气湿度传感器3</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>测试网关场所3</MonitorName>
+<MonitorCode>1450832902</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="0" InsID="3117835687">
+<InsCode>3117835687</InsCode>
+<Name>DPM设备14</Name>
+<Mac>100.125.192.195</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>3030</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="5339034250">
+<Name>DPM采控器14</Name>
+<Mac>100.79.152.215.152.226.186.178</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="3710515847">
+<InsID>3710515847</InsID>
+<Name>空气湿度14</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3044</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="21">(TH*256+TL)/10+4</Rule>
+</Rules>
+<MonitorName>709室-14</MonitorName>
+<MonitorCode>3053766708</MonitorCode>
+</Device>
+<Device Type="0" InsCode="9403240671">
+<InsID>9403240671</InsID>
+<Name>挥发性气体14</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x010C</Address>
+<DevTypeID>3059</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="3">(TH*256+TL)/10</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>709室-14</MonitorName>
+<MonitorCode>3053766708</MonitorCode>
+</Device>
+<Device Type="0" InsCode="7328943510">
+<InsID>7328943510</InsID>
+<Name>一氧化碳14</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0110</Address>
+<DevTypeID>3058</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>709室-14</MonitorName>
+<MonitorCode>3053766708</MonitorCode>
+</Device>
+<Device Type="0" InsCode="7017395683">
+<InsID>7017395683</InsID>
+<Name>二氧化碳14</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3004</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>709室-14</MonitorName>
+<MonitorCode>3053766708</MonitorCode>
+</Device>
+<Device Type="0" InsCode="4747933851">
+<InsID>4747933851</InsID>
+<Name>空气温度14</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3043</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="20">(TH*256+TL)/10-2</Rule>
+</Rules>
+<MonitorName>709室-14</MonitorName>
+<MonitorCode>3053766708</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="0" InsID="8930397506">
+<InsCode>8930397506</InsCode>
+<Name>DPM设备15</Name>
+<Mac>100.90.48.202</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>3030</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="7396405822">
+<Name>DPM采控器15</Name>
+<Mac>100.57.121.188.146.98.12.92</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="6562630274">
+<InsID>6562630274</InsID>
+<Name>空气温度15</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3043</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="20">(TH*256+TL)/10-2</Rule>
+</Rules>
+<MonitorName>709室-15</MonitorName>
+<MonitorCode>6089554274</MonitorCode>
+</Device>
+<Device Type="0" InsCode="7249342398">
+<InsID>7249342398</InsID>
+<Name>二氧化碳15</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3004</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>709室-15</MonitorName>
+<MonitorCode>6089554274</MonitorCode>
+</Device>
+<Device Type="0" InsCode="5253851459">
+<InsID>5253851459</InsID>
+<Name>空气湿度15</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3044</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="21">(TH*256+TL)/10+4</Rule>
+</Rules>
+<MonitorName>709室-15</MonitorName>
+<MonitorCode>6089554274</MonitorCode>
+</Device>
+<Device Type="0" InsCode="2109037022">
+<InsID>2109037022</InsID>
+<Name>挥发性气体15</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x010C</Address>
+<DevTypeID>3059</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="3">(TH*256+TL)/10</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>709室-15</MonitorName>
+<MonitorCode>6089554274</MonitorCode>
+</Device>
+<Device Type="0" InsCode="3746383967">
+<InsID>3746383967</InsID>
+<Name>一氧化碳15</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0110</Address>
+<DevTypeID>3058</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>709室-15</MonitorName>
+<MonitorCode>6089554274</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="0" InsID="5714889713">
+<InsCode>5714889713</InsCode>
+<Name>DPM设备16</Name>
+<Mac>100.197.26.247</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>3030</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="8303174292">
+<Name>DPM采控器16</Name>
+<Mac>100.34.4.49.199.150.222.25</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="8971515741">
+<InsID>8971515741</InsID>
+<Name>空气温度16</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3043</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="20">(TH*256+TL)/10-2</Rule>
+</Rules>
+<MonitorName>709室-16</MonitorName>
+<MonitorCode>7635043752</MonitorCode>
+</Device>
+<Device Type="0" InsCode="9072127680">
+<InsID>9072127680</InsID>
+<Name>一氧化碳16</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0110</Address>
+<DevTypeID>3058</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>709室-16</MonitorName>
+<MonitorCode>7635043752</MonitorCode>
+</Device>
+<Device Type="0" InsCode="9569684314">
+<InsID>9569684314</InsID>
+<Name>二氧化碳16</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3004</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>709室-16</MonitorName>
+<MonitorCode>7635043752</MonitorCode>
+</Device>
+<Device Type="0" InsCode="6373814109">
+<InsID>6373814109</InsID>
+<Name>空气湿度16</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3044</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="21">(TH*256+TL)/10+4</Rule>
+</Rules>
+<MonitorName>709室-16</MonitorName>
+<MonitorCode>7635043752</MonitorCode>
+</Device>
+<Device Type="0" InsCode="2802471559">
+<InsID>2802471559</InsID>
+<Name>挥发性气体16</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x010C</Address>
+<DevTypeID>3059</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="3">(TH*256+TL)/10</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>709室-16</MonitorName>
+<MonitorCode>7635043752</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="0" InsID="9474078374">
+<InsCode>9474078374</InsCode>
+<Name>DPM设备17</Name>
+<Mac>100.99.62.70</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>3030</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="4179735000">
+<Name>DPM采控器17</Name>
+<Mac>100.177.14.21.210.102.126.177</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="9828039521">
+<InsID>9828039521</InsID>
+<Name>空气温度17</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3043</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="20">(TH*256+TL)/10-2</Rule>
+</Rules>
+<MonitorName>709室-17</MonitorName>
+<MonitorCode>6958238355</MonitorCode>
+</Device>
+<Device Type="0" InsCode="6134489254">
+<InsID>6134489254</InsID>
+<Name>空气湿度17</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3044</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="21">(TH*256+TL)/10+4</Rule>
+</Rules>
+<MonitorName>709室-17</MonitorName>
+<MonitorCode>6958238355</MonitorCode>
+</Device>
+<Device Type="0" InsCode="6771778269">
+<InsID>6771778269</InsID>
+<Name>一氧化碳17</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0110</Address>
+<DevTypeID>3058</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>709室-17</MonitorName>
+<MonitorCode>6958238355</MonitorCode>
+</Device>
+<Device Type="0" InsCode="9137036058">
+<InsID>9137036058</InsID>
+<Name>二氧化碳17</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3004</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>709室-17</MonitorName>
+<MonitorCode>6958238355</MonitorCode>
+</Device>
+<Device Type="0" InsCode="2284354276">
+<InsID>2284354276</InsID>
+<Name>挥发性气体17</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x010C</Address>
+<DevTypeID>3059</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="3">(TH*256+TL)/10</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>709室-17</MonitorName>
+<MonitorCode>6958238355</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="6105740881">
+<InsCode>6105740881</InsCode>
+<Name>DPM设备101</Name>
+<Mac>100.174.43.172</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>3030</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="4899027334">
+<Name>DPM采控器101</Name>
+<Mac>100.46.75.77.168.5.208.27</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="3238159407">
+<InsID>3238159407</InsID>
+<Name>二氧化碳101</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3004</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>709室-101</MonitorName>
+<MonitorCode>3459730186</MonitorCode>
+</Device>
+<Device Type="0" InsCode="1216376483">
+<InsID>1216376483</InsID>
+<Name>空气湿度101</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3044</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="21">(TH*256+TL)/10+4</Rule>
+</Rules>
+<MonitorName>709室-101</MonitorName>
+<MonitorCode>3459730186</MonitorCode>
+</Device>
+<Device Type="0" InsCode="7041882471">
+<InsID>7041882471</InsID>
+<Name>空气温度101</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3043</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+<Rule IsSigned="0" ID="20">(TH*256+TL)/10-2</Rule>
+</Rules>
+<MonitorName>709室-101</MonitorName>
+<MonitorCode>3459730186</MonitorCode>
+</Device>
+<Device Type="0" InsCode="5565337792">
+<InsID>5565337792</InsID>
+<Name>一氧化碳101</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0110</Address>
+<DevTypeID>3058</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>709室-101</MonitorName>
+<MonitorCode>3459730186</MonitorCode>
+</Device>
+<Device Type="0" InsCode="9097489247">
+<InsID>9097489247</InsID>
+<Name>挥发性气体101</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x010C</Address>
+<DevTypeID>3059</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="3">(TH*256+TL)/10</Rule>
+<Rule IsSigned="0" ID="15">S:1:5.1f</Rule>
+</Rules>
+<MonitorName>709室-101</MonitorName>
+<MonitorCode>3459730186</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="5304167231">
+<InsCode>5304167231</InsCode>
+<Name>3边缘网关</Name>
+<Mac>100.1.155.53</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="2167699102">
+<Name>3采集器</Name>
+<Mac>100.181.235.69.255.215.191.72</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="3479534907">
+<InsID>3479534907</InsID>
+<Name>3空气湿度</Name>
+<WorkStatus>2</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>sds</MonitorName>
+<MonitorCode>3183391004</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="5162938059">
+<InsCode>5162938059</InsCode>
+<Name>4边缘网关</Name>
+<Mac>100.100.175.3</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="3393075303">
+<Name>4采集器</Name>
+<Mac>100.121.156.3.20.244.131.68</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="5293543014">
+<InsID>5293543014</InsID>
+<Name>4空气温度</Name>
+<WorkStatus>2</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>场所4</MonitorName>
+<MonitorCode>8228321824</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="0" InsID="4752143297">
+<InsCode>4752143297</InsCode>
+<Name>5边缘网关</Name>
+<Mac>100.89.240.109</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="1827825032">
+<Name>5采控器</Name>
+<Mac>100.213.241.8.51.129.30.210</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="1759118421">
+<InsID>1759118421</InsID>
+<Name>5空气湿度</Name>
+<WorkStatus>2</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>sds</MonitorName>
+<MonitorCode>3183391004</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="2" InsID="5651769541">
+<InsCode>5651769541</InsCode>
+<Name>6边缘网关</Name>
+<Mac>100.198.51.200</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="1597399677">
+<Name>6采控器</Name>
+<Mac>100.226.53.61.113.103.78.96</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="1676198730">
+<InsID>1676198730</InsID>
+<Name>6土壤水分传感器</Name>
+<WorkStatus>2</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3031</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>sds</MonitorName>
+<MonitorCode>3183391004</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="0" InsID="2344510803">
+<InsCode>2344510803</InsCode>
+<Name>边缘网关1</Name>
+<Mac>87.68.00.01</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>60</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="8675646216">
+<Name>采控器1</Name>
+<Mac>76.65.78.67.69.00.00.01</Mac>
+<Cycle>60</Cycle>
+<Device Type="0" InsCode="9645074612">
+<InsID>9645074612</InsID>
+<Name>2#光照</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3003</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+</Rules>
+<MonitorName>2#大棚</MonitorName>
+<MonitorCode>9966773847</MonitorCode>
+</Device>
+<Device Type="0" InsCode="5385157392">
+<InsID>5385157392</InsID>
+<Name>2#二氧化碳</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0124</Address>
+<DevTypeID>3004</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+</Rules>
+<MonitorName>2#大棚</MonitorName>
+<MonitorCode>9966773847</MonitorCode>
+</Device>
+<Device Type="0" InsCode="3811697977">
+<InsID>3811697977</InsID>
+<Name>1#DI3</Name>
+<WorkStatus>3</WorkStatus>
+<Address>0x2108</Address>
+<DevTypeID>4000</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>3749378724</MonitorCode>
+</Device>
+<Device Type="0" InsCode="1253663793">
+<InsID>1253663793</InsID>
+<Name>2#DI1</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2110</Address>
+<DevTypeID>4000</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>2#大棚</MonitorName>
+<MonitorCode>9966773847</MonitorCode>
+</Device>
+<Device Type="0" InsCode="8362941947">
+<InsID>8362941947</InsID>
+<Name>1#光照</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3003</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>3749378724</MonitorCode>
+</Device>
+<Device Type="0" InsCode="8029068112">
+<InsID>8029068112</InsID>
+<Name>1#DI4</Name>
+<WorkStatus>3</WorkStatus>
+<Address>0x210C</Address>
+<DevTypeID>4000</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>3749378724</MonitorCode>
+</Device>
+<Device Type="0" InsCode="3904755086">
+<InsID>3904755086</InsID>
+<Name>2#土壤湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x010C</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+</Rules>
+<MonitorName>2#大棚</MonitorName>
+<MonitorCode>9966773847</MonitorCode>
+</Device>
+<Device Type="0" InsCode="6746546627">
+<InsID>6746546627</InsID>
+<Name>2#DI3</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2118</Address>
+<DevTypeID>4000</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>2#大棚</MonitorName>
+<MonitorCode>9966773847</MonitorCode>
+</Device>
+<Device Type="0" InsCode="4236266723">
+<InsID>4236266723</InsID>
+<Name>1#空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0114</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>3749378724</MonitorCode>
+</Device>
+<Device Type="0" InsCode="7474942134">
+<InsID>7474942134</InsID>
+<Name>2#空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x012C</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+</Rules>
+<MonitorName>2#大棚</MonitorName>
+<MonitorCode>9966773847</MonitorCode>
+</Device>
+<Device Type="0" InsCode="6000142760">
+<InsID>6000142760</InsID>
+<Name>1#DI1</Name>
+<WorkStatus>3</WorkStatus>
+<Address>0x2100</Address>
+<DevTypeID>4000</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>3749378724</MonitorCode>
+</Device>
+<Device Type="0" InsCode="2514771648">
+<InsID>2514771648</InsID>
+<Name>2#DI4</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x211C</Address>
+<DevTypeID>4000</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>2#大棚</MonitorName>
+<MonitorCode>9966773847</MonitorCode>
+</Device>
+<Device Type="0" InsCode="7286916585">
+<InsID>7286916585</InsID>
+<Name>1#二氧化碳</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0118</Address>
+<DevTypeID>3004</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>3749378724</MonitorCode>
+</Device>
+<Device Type="0" InsCode="7040956818">
+<InsID>7040956818</InsID>
+<Name>1#土壤温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x011C</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="33">(TH*128+TL)/100</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>3749378724</MonitorCode>
+</Device>
+<Device Type="0" InsCode="5164593782">
+<InsID>5164593782</InsID>
+<Name>2#DI2</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2114</Address>
+<DevTypeID>4000</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>2#大棚</MonitorName>
+<MonitorCode>9966773847</MonitorCode>
+</Device>
+<Device Type="0" InsCode="7122239835">
+<InsID>7122239835</InsID>
+<Name>1#空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0110</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="33">(TH*128+TL)/100</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>3749378724</MonitorCode>
+</Device>
+<Device Type="0" InsCode="5517793866">
+<InsID>5517793866</InsID>
+<Name>1#DI2</Name>
+<WorkStatus>3</WorkStatus>
+<Address>0x2104</Address>
+<DevTypeID>4000</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>3749378724</MonitorCode>
+</Device>
+<Device Type="0" InsCode="4776005781">
+<InsID>4776005781</InsID>
+<Name>1#土壤湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>3749378724</MonitorCode>
+</Device>
+<Device Type="0" InsCode="4763748128">
+<InsID>4763748128</InsID>
+<Name>2#空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0128</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="33">(TH*128+TL)/100</Rule>
+</Rules>
+<MonitorName>2#大棚</MonitorName>
+<MonitorCode>9966773847</MonitorCode>
+</Device>
+<Device Type="0" InsCode="2004537151">
+<InsID>2004537151</InsID>
+<Name>2#DO2</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2124</Address>
+<DevTypeID>4000</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>2#大棚</MonitorName>
+<MonitorCode>9966773847</MonitorCode>
+</Device>
+<Device Type="0" InsCode="9984442866">
+<InsID>9984442866</InsID>
+<Name>2#土壤温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0120</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="33">(TH*128+TL)/100</Rule>
+</Rules>
+<MonitorName>2#大棚</MonitorName>
+<MonitorCode>9966773847</MonitorCode>
+</Device>
+<Device Type="0" InsCode="8847039516">
+<InsID>8847039516</InsID>
+<Name>1#DO1</Name>
+<WorkStatus>3</WorkStatus>
+<Address>0x2120</Address>
+<DevTypeID>4000</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>1#大棚</MonitorName>
+<MonitorCode>3749378724</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="0" InsID="3739168874">
+<InsCode>3739168874</InsCode>
+<Name>xml边缘网关</Name>
+<Mac>100.36.60.215</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>60</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="5286796363">
+<Name>xml采控器</Name>
+<Mac>100.72.22.177.33.6.34.82</Mac>
+<Cycle>60</Cycle>
+<Device Type="0" InsCode="6268427115">
+<InsID>6268427115</InsID>
+<Name>xml传感器</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>场所1</MonitorName>
+<MonitorCode>5945794866</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="0" InsID="9480186006">
+<InsCode>9480186006</InsCode>
+<Name>json边缘网关</Name>
+<Mac>100.245.233.182</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>60</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="7894448643">
+<Name>json采控器</Name>
+<Mac>100.187.128.148.89.84.151.232</Mac>
+<Cycle>60</Cycle>
+<Device Type="0" InsCode="2134971738">
+<InsID>2134971738</InsID>
+<Name>json传感器</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>场所2</MonitorName>
+<MonitorCode>3681975823</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="0" InsID="9875973791">
+<InsCode>9875973791</InsCode>
+<Name>cc边缘网关</Name>
+<Mac>124.127.116.230</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>60</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+</Margin>
+<Margin Type="0" InsID="9597893401">
+<InsCode>9597893401</InsCode>
+<Name>边缘网关</Name>
+<Mac>0.0.89.217</Mac>
+<IP>219.141.189.156</IP>
+<Port>0</Port>
+<IsMultithreading>1</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="7606051469">
+<Name>控制器</Name>
+<Mac>0.0.0.0.11.11.11.11</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="8449256294">
+<InsID>8449256294</InsID>
+<Name>小风扇</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2108</Address>
+<DevTypeID>4017</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="9">S:0:{0@关@1@开}</Rule>
+</Rules>
+<MonitorName>演示箱</MonitorName>
+<MonitorCode>5714582143</MonitorCode>
+</Device>
+<Device Type="0" InsCode="5226922295">
+<InsID>5226922295</InsID>
+<Name>继电器2</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2104</Address>
+<DevTypeID>4000</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>演示箱</MonitorName>
+<MonitorCode>5714582143</MonitorCode>
+</Device>
+<Device Type="0" InsCode="1165538715">
+<InsID>1165538715</InsID>
+<Name>继电器1</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2100</Address>
+<DevTypeID>4000</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>演示箱</MonitorName>
+<MonitorCode>5714582143</MonitorCode>
+</Device>
+</SC>
+<SC Type="0" InsCode="5278998904">
+<Name>采集器</Name>
+<Mac>0.0.0.0.0.0.0.34</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="3444714960">
+<InsID>3444714960</InsID>
+<Name>光照</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3003</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="22">S:1:5.2F</Rule>
+</Rules>
+<MonitorName>演示箱</MonitorName>
+<MonitorCode>5714582143</MonitorCode>
+</Device>
+<Device Type="0" InsCode="5417551878">
+<InsID>5417551878</InsID>
+<Name>温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x010c</Address>
+<DevTypeID>3061</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="6">S:1:4.0f</Rule>
+<Rule IsSigned="1" ID="43">TH+TL/10</Rule>
+</Rules>
+<MonitorName>演示箱</MonitorName>
+<MonitorCode>5714582143</MonitorCode>
+</Device>
+<Device Type="0" InsCode="5705281755">
+<InsID>5705281755</InsID>
+<Name>空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>演示箱</MonitorName>
+<MonitorCode>5714582143</MonitorCode>
+</Device>
+<Device Type="0" InsCode="8610058621">
+<InsID>8610058621</InsID>
+<Name>空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>演示箱</MonitorName>
+<MonitorCode>5714582143</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="0" InsID="7490979732">
+<InsCode>7490979732</InsCode>
+<Name>cc边缘网关</Name>
+<Mac>124.127.116.230</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>60</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+</Margin>
+<Margin Type="0" InsID="9630719301">
+<InsCode>9630719301</InsCode>
+<Name>cc边缘网关</Name>
+<Mac>124.127.116.230</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>60</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+</Margin>
+<Margin Type="0" InsID="3437866671">
+<InsCode>3437866671</InsCode>
+<Name>0.0.6.6</Name>
+<Mac>0.0.6.6</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>60</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="3515698393">
+<Name>0.0.6.6.6.6.6.6</Name>
+<Mac>0.0.6.6.6.6.6.6</Mac>
+<Cycle>60</Cycle>
+<Device Type="0" InsCode="7390976455">
+<InsID>7390976455</InsID>
+<Name>温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>场所1</MonitorName>
+<MonitorCode>5945794866</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="0" InsID="3364587521">
+<InsCode>3364587521</InsCode>
+<Name>bian</Name>
+<Mac>0.0.9.8</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>60</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="1632538687">
+<Name>cai</Name>
+<Mac>0.0.9.8.0.0.9.8</Mac>
+<Cycle>60</Cycle>
+<Device Type="0" InsCode="5585778934">
+<InsID>5585778934</InsID>
+<Name>wend</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3061</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="35">TH*256+TL+1000</Rule>
+</Rules>
+<MonitorName>cc场所</MonitorName>
+<MonitorCode>4052827558</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="0" InsID="9973875710">
+<InsCode>9973875710</InsCode>
+<Name>ieee1888边缘网关</Name>
+<Mac>255.254.102.241</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>60</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="1822625446">
+<Name>ieee1888采控器</Name>
+<Mac>255.254.176.126.166.167.172.56</Mac>
+<Cycle>60</Cycle>
+<Device Type="0" InsCode="8279700860">
+<InsID>8279700860</InsID>
+<Name>ieee1888</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>场所1</MonitorName>
+<MonitorCode>5945794866</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="0" InsID="9407798279">
+<InsCode>9407798279</InsCode>
+<Name>1.2.3.4</Name>
+<Mac>1.2.3.4</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>60</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="3627653549">
+<Name>1.2.3.4.5.6.7.8</Name>
+<Mac>1.2.3.4.5.6.7.8</Mac>
+<Cycle>60</Cycle>
+<Device Type="0" InsCode="8388119775">
+<InsID>8388119775</InsID>
+<Name>wd</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>场所1</MonitorName>
+<MonitorCode>5945794866</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="0" InsID="7617200242">
+<InsCode>7617200242</InsCode>
+<Name>边缘网关</Name>
+<Mac>100.64.204.202</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>60</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="9751647068">
+<Name>采控器</Name>
+<Mac>100.210.172.87.194.144.53.164</Mac>
+<Cycle>60</Cycle>
+<Device Type="0" InsCode="4825785204">
+<InsID>4825785204</InsID>
+<Name>湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>场所2</MonitorName>
+<MonitorCode>3681975823</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="0" InsID="1621065098">
+<InsCode>1621065098</InsCode>
+<Name>bywg</Name>
+<Mac>0.0.89.110</Mac>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>60</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="4908345486">
+<Name>caikongqi</Name>
+<Mac>0.0.0.0.0.0.0.1</Mac>
+<Cycle>60</Cycle>
+<Device Type="0" InsCode="6143438343">
+<InsID>6143438343</InsID>
+<Name>shidu</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>场所2</MonitorName>
+<MonitorCode>3681975823</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="0" InsID="7379278095">
+<InsCode>7379278095</InsCode>
+<Name>by</Name>
+<Port>0</Port>
+<IsMultithreading>0</IsMultithreading>
+<Cycle>60</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="9864998120">
+<Name>ck</Name>
+<Mac>100.210.172.87.194.144.53.164</Mac>
+<Cycle>60</Cycle>
+<Device Type="0" InsCode="5481574161">
+<InsID>5481574161</InsID>
+<Name>sd</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>场所2</MonitorName>
+<MonitorCode>3681975823</MonitorCode>
+</Device>
+</SC>
+</Margin>
+<Margin Type="0" InsID="2517915435">
+<InsCode>2517915435</InsCode>
+<Name>边缘网关（演示箱）</Name>
+<Mac>0.0.89.217</Mac>
+<IP>219.141.189.156</IP>
+<Port>0</Port>
+<IsMultithreading>1</IsMultithreading>
+<Cycle>30</Cycle>
+<WorkModel>1</WorkModel>
+<Port>502</Port>
+<Protocol>1</Protocol>
+<SC Type="0" InsCode="8532499119">
+<Name>演示采控器-采集器</Name>
+<Mac>0.0.0.0.0.0.0.34</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="7698307750">
+<InsID>7698307750</InsID>
+<Name>空气湿度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0108</Address>
+<DevTypeID>3002</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="23">S:1:4.2f</Rule>
+<Rule IsSigned="0" ID="7">(TH+TL/100-4)/16*100</Rule>
+</Rules>
+<MonitorName>演示箱</MonitorName>
+<MonitorCode>5966001403</MonitorCode>
+</Device>
+<Device Type="0" InsCode="2306650586">
+<InsID>2306650586</InsID>
+<Name>光照</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0100</Address>
+<DevTypeID>3003</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="12">TH*256+TL</Rule>
+<Rule IsSigned="0" ID="22">S:1:5.2F</Rule>
+</Rules>
+<MonitorName>演示箱</MonitorName>
+<MonitorCode>5966001403</MonitorCode>
+</Device>
+<Device Type="0" InsCode="4935351332">
+<InsID>4935351332</InsID>
+<Name>空气温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x0104</Address>
+<DevTypeID>3001</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="5">(TH+TL/100-4)/16*100-20</Rule>
+<Rule IsSigned="0" ID="8">S:1:4.1f</Rule>
+</Rules>
+<MonitorName>演示箱</MonitorName>
+<MonitorCode>5966001403</MonitorCode>
+</Device>
+<Device Type="0" InsCode="4247329776">
+<InsID>4247329776</InsID>
+<Name>温度</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x010c</Address>
+<DevTypeID>3061</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="6">S:1:4.0f</Rule>
+<Rule IsSigned="1" ID="43">TH+TL/10</Rule>
+</Rules>
+<MonitorName>演示箱</MonitorName>
+<MonitorCode>5966001403</MonitorCode>
+</Device>
+</SC>
+<SC Type="0" InsCode="6676565396">
+<Name>演示采控器-控制器</Name>
+<Mac>0.0.0.0.11.11.11.11</Mac>
+<Cycle>30</Cycle>
+<Device Type="0" InsCode="7621940641">
+<InsID>7621940641</InsID>
+<Name>风扇</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2108</Address>
+<DevTypeID>4017</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="9">S:0:{0@关@1@开}</Rule>
+</Rules>
+<MonitorName>演示箱</MonitorName>
+<MonitorCode>5966001403</MonitorCode>
+</Device>
+<Device Type="0" InsCode="4936119275">
+<InsID>4936119275</InsID>
+<Name>继电器1</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2100</Address>
+<DevTypeID>4000</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>演示箱</MonitorName>
+<MonitorCode>5966001403</MonitorCode>
+</Device>
+<Device Type="0" InsCode="5837209431">
+<InsID>5837209431</InsID>
+<Name>继电器2</Name>
+<WorkStatus>1</WorkStatus>
+<Address>0x2104</Address>
+<DevTypeID>4000</DevTypeID>
+<Rules>
+<Rule IsSigned="0" ID="10">TL</Rule>
+<Rule IsSigned="0" ID="11">S:0:{1@开@0@关}</Rule>
+</Rules>
+<MonitorName>演示箱</MonitorName>
+<MonitorCode>5966001403</MonitorCode>
+</Device>
+</SC>
+</Margin>
+</AdapterGatewayConfig></ServiceResponse>
