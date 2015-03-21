@@ -2,13 +2,14 @@
 '''
 Created on 2013年11月19日
 
-@author: Ethan
+@author: Zouyiran
 '''
 
-import pickle
+import cPickle as pickle
+from config.config import *
 
 def storeip(ip,segmac,xmldict,segIP):
-    filename = 'seg_ip.txt'
+    filename = PROGRAM_ROOT + os.sep + 'seg_ip.txt'
     flag = ip in segIP.values()
     if not flag:
         segIP[segmac] = ip

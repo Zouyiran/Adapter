@@ -2,7 +2,7 @@
 '''
 Created on 2013年11月19日
 
-@author: Ethan
+@author: Zouyiran
 '''
 
 def convertmac(mac, length):

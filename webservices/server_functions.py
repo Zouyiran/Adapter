@@ -2,7 +2,7 @@
 '''
 Created on 2013年11月13日
 
-@author: Echo
+@author: CH
 '''
 import os
 import time

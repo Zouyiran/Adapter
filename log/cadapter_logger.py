@@ -3,7 +3,7 @@ import os
 import logging
 import logging.config
 
-LOG_CONFIG_FILE = os.getcwd()+"\\log\\logger.conf" 
+LOG_CONFIG_FILE = os.getcwd()+ os.sep + "log" + os.sep + "logger.conf" 
 
 class CAdapterLogger():
     def __init__(self, logtype = "", confFile = LOG_CONFIG_FILE):

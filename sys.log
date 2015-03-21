@@ -1,0 +1,52 @@
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+0
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+{'9629810617': {'AlertType': 0, 'SValue': '30.0', 'Name': u'\u7a7a\u6c14\u6e29\u5ea6\u4f20\u611f\u56681', 'InsID': '9629810617', 'WorkStatus': '1', 'AlertDesc': '\xe6\xad\xa3\xe5\xb8\xb8', 'Value': 30.0, 'DeviceType': '3001', 'GatherTime': datetime.datetime(2014, 7, 31, 14, 40, 30, 804417), 'EntityID': '3004632544', 'MonitorName': u'\u6d4b\u8bd5\u7f51\u5173\u573a\u62401'}}
+{'5363213381': {'AlertType': 0, 'SValue': '58.94', 'Name': u'\u7a7a\u6c14\u6e7f\u5ea6\u4f20\u611f\u56681', 'InsID': '5363213381', 'WorkStatus': '1', 'AlertDesc': '\xe6\xad\xa3\xe5\xb8\xb8', 'Value': 58.9375, 'DeviceType': '3002', 'GatherTime': datetime.datetime(2014, 7, 31, 14, 40, 31, 570604), 'EntityID': '3004632544', 'MonitorName': u'\u6d4b\u8bd5\u7f51\u5173\u573a\u62401'}, '9629810617': {'AlertType': 0, 'SValue': '30.0', 'Name': u'\u7a7a\u6c14\u6e29\u5ea6\u4f20\u611f\u56681', 'InsID': '9629810617', 'WorkStatus': '1', 'AlertDesc': '\xe6\xad\xa3\xe5\xb8\xb8', 'Value': 30.0, 'DeviceType': '3001', 'GatherTime': datetime.datetime(2014, 7, 31, 14, 40, 30, 804417), 'EntityID': '3004632544', 'MonitorName': u'\u6d4b\u8bd5\u7f51\u5173\u573a\u62401'}}
+{'5363213381': {'AlertType': 0, 'SValue': '58.94', 'Name': u'\u7a7a\u6c14\u6e7f\u5ea6\u4f20\u611f\u56681', 'InsID': '5363213381', 'WorkStatus': '1', 'AlertDesc': '\xe6\xad\xa3\xe5\xb8\xb8', 'Value': 58.9375, 'DeviceType': '3002', 'GatherTime': datetime.datetime(2014, 7, 31, 14, 40, 31, 570604), 'EntityID': '3004632544', 'MonitorName': u'\u6d4b\u8bd5\u7f51\u5173\u573a\u62401'}, '9629810617': {'AlertType': 0, 'SValue': '30.0', 'Name': u'\u7a7a\u6c14\u6e29\u5ea6\u4f20\u611f\u56681', 'InsID': '9629810617', 'WorkStatus': '1', 'AlertDesc': '\xe6\xad\xa3\xe5\xb8\xb8', 'Value': 30.0, 'DeviceType': '3001', 'GatherTime': datetime.datetime(2014, 7, 31, 14, 40, 30, 804417), 'EntityID': '3004632544', 'MonitorName': u'\u6d4b\u8bd5\u7f51\u5173\u573a\u62401'}, '2015496021': {'AlertType': 0, 'SValue': '  6.4', 'Name': u'\u571f\u58e4\u6e29\u5ea61', 'InsID': '2015496021', 'WorkStatus': '1', 'AlertDesc': '\xe6\xad\xa3\xe5\xb8\xb8', 'Value': 6.3750000000000036, 'DeviceType': '3001', 'GatherTime': datetime.datetime(2014, 7, 31, 14, 40, 32, 320597), 'EntityID': '3004632544', 'MonitorName': u'\u6d4b\u8bd5\u7f51\u5173\u573a\u62401'}}
+{'5363213381': {'AlertType': 0, 'SValue': '58.94', 'Name': u'\u7a7a\u6c14\u6e7f\u5ea6\u4f20\u611f\u56681', 'InsID': '5363213381', 'WorkStatus': '1', 'AlertDesc': '\xe6\xad\xa3\xe5\xb8\xb8', 'Value': 58.9375, 'DeviceType': '3002', 'GatherTime': datetime.datetime(2014, 7, 31, 14, 40, 31, 570604), 'EntityID': '3004632544', 'MonitorName': u'\u6d4b\u8bd5\u7f51\u5173\u573a\u62401'}, '9629810617': {'AlertType': 0, 'SValue': '30.0', 'Name': u'\u7a7a\u6c14\u6e29\u5ea6\u4f20\u611f\u56681', 'InsID': '9629810617', 'WorkStatus': '1', 'AlertDesc': '\xe6\xad\xa3\xe5\xb8\xb8', 'Value': 30.0, 'DeviceType': '3001', 'GatherTime': datetime.datetime(2014, 7, 31, 14, 40, 30, 804417), 'EntityID': '3004632544', 'MonitorName': u'\u6d4b\u8bd5\u7f51\u5173\u573a\u62401'}, '4651912738': {'AlertType': 0, 'SValue': '11.2', 'Name': u'\u571f\u58e4\u6c34\u52061', 'InsID': '4651912738', 'WorkStatus': '1', 'AlertDesc': '\xe6\xad\xa3\xe5\xb8\xb8', 'Value': 11.1875, 'DeviceType': '3031', 'GatherTime': datetime.datetime(2014, 7, 31, 14, 40, 33, 68832), 'EntityID': '3004632544', 'MonitorName': u'\u6d4b\u8bd5\u7f51\u5173\u573a\u62401'}, '2015496021': {'AlertType': 0, 'SValue': '  6.4', 'Name': u'\u571f\u58e4\u6e29\u5ea61', 'InsID': '2015496021', 'WorkStatus': '1', 'AlertDesc': '\xe6\xad\xa3\xe5\xb8\xb8', 'Value': 6.3750000000000036, 'DeviceType': '3001', 'GatherTime': datetime.datetime(2014, 7, 31, 14, 40, 32, 320597), 'EntityID': '3004632544', 'MonitorName': u'\u6d4b\u8bd5\u7f51\u5173\u573a\u62401'}}
+{'5363213381': {'AlertType': 0, 'SValue': '58.94', 'Name': u'\u7a7a\u6c14\u6e7f\u5ea6\u4f20\u611f\u56681', 'InsID': '5363213381', 'WorkStatus': '1', 'AlertDesc': '\xe6\xad\xa3\xe5\xb8\xb8', 'Value': 58.9375, 'DeviceType': '3002', 'GatherTime': datetime.datetime(2014, 7, 31, 14, 40, 31, 570604), 'EntityID': '3004632544', 'MonitorNhttp://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+1
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/
+http://0.0.0.0:8087/

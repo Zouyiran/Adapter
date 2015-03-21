@@ -6,7 +6,7 @@ Created on 2013年10月16日
 '''
 
 from cserver import *
-
+from config.globals import *
 global logger
 
 class EdgeManager(object):
@@ -15,42 +15,25 @@ class EdgeManager(object):
        3） port---边缘网关传输端口
          cmsg_port---与ControlManager内部交换数据端口
     """
-    def __init__(self,port,cmsg_port,target=None,args=None):
-        self.tcp4Server=CIPv4ServerTCP(port,target,args)
-        self.udp4Server=CIPv4ServerUDP(port,target,args)
-        self.tcp6Server=CIPv6ServerTCP(port,target,args)
-        self.udp6Server=CIPv6ServerUDP(port,target,args)
-        self.cmsgServer=CControlMSGServer(cmsg_port,target,args)
+    def __init__(self, port, cmsg_port):
+        self.tcp4Server = CIPv4ServerTCP(port)
+        self.udp4Server = CIPv4ServerUDP(port)
+        self.tcp6Server = CIPv6ServerTCP(port)
+        self.udp6Server = CIPv6ServerUDP(port)
+        self.cmsgServer = CControlMSGServer(cmsg_port)
     
     def __del__(self):
-        logger.info("All servers are ending")
+        logger.info("服务器已经关闭")
         
     def run(self):
-        threads = []
-        try:           
-            threads.append(self.tcp4Server)
-            threads.append(self.udp4Server)
-            threads.append(self.tcp6Server)
-            threads.append(self.udp6Server)
-            threads.append(self.cmsgServer)
-        except:
-            print "initial  failed"
-            logger.error("failed to start servers")
-                  
-        try: 
-            for thread in threads:
-                print "Ip server threads are starting"
-                thread.start()
-                print thread.getName()
-                print "++++++++++++++++++++++++++++"
-        except:
-            print "start failed"
-            logger.debug("failed to be start servers")
-#——————————————————————————————————————————————————————————
-def test():
-    edgemanager=EdgeManager(502,2222)
-    edgemanager.run()
-    
-if __name__ == "__main__":
-    test()
-
+        globals.test = "2"
+        threads = []          
+        threads.append(self.tcp4Server)
+        threads.append(self.udp4Server)
+        threads.append(self.tcp6Server)
+        threads.append(self.udp6Server)
+        threads.append(self.cmsgServer)
+                
+        #各server里已有错误捕获  
+        for thread in threads:           
+            thread.start()

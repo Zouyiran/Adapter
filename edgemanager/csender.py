@@ -2,7 +2,7 @@
 '''
 Created on 2013年11月18日
 
-@author: Ethan
+@author: Zouyiran
 '''
 
 import struct

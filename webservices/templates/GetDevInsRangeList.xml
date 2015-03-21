@@ -1,0 +1,16 @@
+$def with(transactionID, timestamp, AppCode, Authenticator, InsID)
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ServiceRequest>
+    <TransactionID>$transactionID</TransactionID>
+    <TimeStamp>$timestamp</TimeStamp>
+    <AppCode>$AppCode</AppCode>
+    $if Authenticator != "":
+    <Authenticator>$Authenticator</Authenticator>
+    <PageNo>1</PageNo>
+    <PageSize>10</PageSize>
+    <AutoCount>1</AutoCount>
+    <UserType>User</UserType>
+    <ItemRequest>
+        <InsID>$InsID</InsID>
+    </ItemRequest>
+</ServiceRequest>

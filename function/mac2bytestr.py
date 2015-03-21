@@ -2,7 +2,7 @@
 '''
 Created on 2013年11月19日
 
-@author: Ethan
+@author: Zouyiran
 '''
 def convertmac(mac):
     """将ip地址转换成整数"""

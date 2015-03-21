@@ -1,0 +1,12 @@
+$def with(transactionID, timestamp, GACode, AppCode, Mid, EndDate, Authenticator)
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ServiceRequest>
+    <TransactionID>$transactionID</TransactionID>
+    <TimeStamp>$timestamp</TimeStamp>
+    <GACode>$GACode</GACode>
+    <AppCode>$AppCode</AppCode>
+    <Mid>$Mid</Mid>
+    <EndDate>$EndDate</EndDate>
+    $if Authenticator != "":
+    <Authenticator>$Authenticator</Authenticator>
+</ServiceRequest>

@@ -5,50 +5,48 @@ Created on 2013年10月15日
 @author: Administrator
 '''
 
-from PyQt4 import QtCore
 import os
+import web
 from log.cadapter_logger import CAdapterLogger
 
+PROGRAM_ROOT = "/home/ch/adapter"
 logger = CAdapterLogger()
 segIP = {}
 LOG_CONFIG_FILE = "logger.conf" 
-XMLFILEPATH = os.getcwd()+"\\configmanager\\SEG.xml"
+#设备配置文件路径
+XMLFILEPATH = PROGRAM_ROOT+ os.sep +  "configmanager" + os.sep + "SEG.xml"
 
-DATABASE_USER = "adapter" 
-DATABASE_PASSWORD = "123"
-DATABASE_NAME = "datamanager"
-COLLECTION_NAME = "DeviceInsHty"
+#MongoDB配置
+DATABASE_ADDR = "219.141.189.154"
+DATABASE_PORT = 27017
+DATABASE_USER = "" 
+DATABASE_PASSWORD = ""
+DATABASE_NAME = "sdc"
 
+#内部通信配置
 CMSG_ADDR = "127.0.0.1"
 CMSG_PORT = 2222 #control_manager与edge_manager传送cmsg内部接口
 
+#服务器网络配置
 SERVER_PORT = 502
-CLIENT_ADDR = "127.0.0.1"
-CLIENT_PORT = 502
-SEGMAC = "241.0.0.1"
-SCMAC = "0.0.0.241.0.0.0.1"
 PROTO_ID = 0
 
-FREQ_ADDR = 0x00F5
-TEMP_UPPER = 0x4100
-TEMP_LOWER =  0x4101
-MOISTURE_UPPER = 0x4102
-MOISTURE_LOWER = 0x4103
-EARTH_TEMP_UPPER = 0x4104
-EARTH_TEMP_LOWER = 0x4105
-EARTH_MOISTURE_UPPER = 0x4106
-EARTH_MOISTURE_LOWER = 0x4107
-CO2_UPPER = 0x4108
-CO2_LOWER = 0x4109
-ILLUM_UPPER = 0x410A
-ILLUM_LOWER = 0x410B
-COMMAND_ADDR = 0x2100
+#以下为web服务配置
+templates = PROGRAM_ROOT + os.sep + "webservices" + os.sep + "templates"
+render = web.template.render(templates, cache = False)
 
-INI_FILE = "." + os.sep + "config.ini"
+site_prefix = os.sep + "adapter"
 
-def loadConfig():
-    global SERVER_PORT, CLIENT_ADDR, CLIENT_PORT
-    settings = QtCore.QSettings(INI_FILE, QtCore.QSettings.IniFormat)
-    SERVER_PORT = int(settings.value("server-port", SERVER_PORT).toString())
-    CLIENT_ADDR = settings.value("client-addr", CLIENT_ADDR).toString()
-    CLIENT_PORT = int(settings.value("client-port", CLIENT_PORT).toString())
+urls = (
+    site_prefix + os.sep + 'api', 'webservices.api.index'
+)
+
+app = web.application(urls, globals())
+
+#管理平台地址及端口
+MANAGE_ADDR = "219.141.189.154" 
+MANAGE_PORT = 8087
+
+#业务平台地址及端口
+BUSINESS_ADDR = "219.141.189.154"
+BUSINESS_PORT = 80

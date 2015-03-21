@@ -2,7 +2,7 @@
 '''
 Created on 2013年11月18日
 
-@author: Ethan
+@author: Zouyiran
 '''
 
 import socket
@@ -16,20 +16,23 @@ global logger
 global segIP
 
 class CIPv4ServerTCP(threading.Thread):
-    def __init__(self,port,target,args):
-        threading.Thread.__init__(self, target, args)
+    def __init__(self, port):
+        threading.Thread.__init__(self)
         self.port = port
         
     def run(self):
         addr = ("", self.port)
+
         try:        
             self.adapter_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             self.adapter_sock.bind(addr)
             self.adapter_sock.listen(10)
-            logger.info("%s %d Ipv4 TCP server is starting..." %addr)
-        except:
-            logger.error("%s %d failed to start Ipv4 TCP server." %addr)
+            logger.info("IPv4 TCP服务器已经启动，服务器绑定地址%s" % str(addr))
+
+        except Exception, e:
+            logger.error("启动IPv4 TCP服务器失败，错误原因%s" % str(e))
             exit(0)
+
         while True:
             (edge_sock, address) = self.adapter_sock.accept()
             try:
@@ -37,15 +40,15 @@ class CIPv4ServerTCP(threading.Thread):
                 buf = edge_sock.recv(1024)
                 if not buf:
                     break
-                handler = CPacketHandler(buf, address[0],segIP)#对接收数据进行处理
+                handler = CPacketHandler(buf, address[0], segIP)#对接收数据进行处理
                 handler.run()  
             except socket.timeout:
                 pass
             edge_sock.close()
 
 class CIPv4ServerUDP(threading.Thread):
-    def __init__(self,port,target,args):
-        threading.Thread.__init__(self,target,args)
+    def __init__(self, port):
+        threading.Thread.__init__(self)
         self.port = port
 
     def run(self):
@@ -53,10 +56,11 @@ class CIPv4ServerUDP(threading.Thread):
         try:                    
             adapter_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)          
             adapter_sock.bind(addr) 
-            logger.info("%s %d Ipv4 UDP server is starting..." %addr)#启动服务器时，通知日志文件       
-        except:
-            logger.error("%s %d failed to start Ipv4 UDP server." %addr)#启动服务器失败，通知日志文件
+            logger.info("IPv4 UDP服务器已经启动，服务器绑定地址%s" % str(addr))
+        except Exception, e:
+            logger.error("启动IPv4 UDP服务器失败，错误原因%s" % str(e))
             exit(0)
+
         while True:
                 buf,address = adapter_sock.recvfrom(1024)
                 if not buf:
@@ -66,8 +70,8 @@ class CIPv4ServerUDP(threading.Thread):
         self.adapter_sock.close()
         
 class CIPv6ServerTCP(threading.Thread):
-    def __init__(self,port,target,args):
-        threading.Thread.__init__(self,target, args)
+    def __init__(self, port):
+        threading.Thread.__init__(self)
         self.port = port     
 
     def run(self):      
@@ -76,9 +80,9 @@ class CIPv6ServerTCP(threading.Thread):
             self.adapter_sock = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)           
             self.adapter_sock.bind(addr)
             self.adapter_sock.listen(10)
-            logger.info("%s %d Ipv6 TCP server is starting..." %addr)     
-        except:
-            logger.error("%s %d failed to start Ipv6 TCP server."%addr)
+            logger.info("IPv6 TCP服务器已经启动，服务器绑定地址%s" % str(addr))  
+        except Exception, e:
+            logger.error("启动IPv6 TCP服务器失败，错误原因%s" % str(e))
             exit(0)
         
         while True:
@@ -95,8 +99,8 @@ class CIPv6ServerTCP(threading.Thread):
             edge_sock.close()
 
 class CIPv6ServerUDP(threading.Thread):
-    def __init__(self,port,target,args):
-        threading.Thread.__init__(self,target, args)
+    def __init__(self, port):
+        threading.Thread.__init__(self)
         self.port = port       
 
     def run(self):
@@ -104,22 +108,23 @@ class CIPv6ServerUDP(threading.Thread):
         try:      
             self.adapter_sock = socket.socket(socket.AF_INET6, socket.SOCK_DGRAM)
             self.adapter_sock.bind(addr)
-            logger.info("%s %d Ipv6 UDP server is starting..."%addr)
-        except:
-            logger.error("%s %d failed to start Ipv6 UDP server."%addr)
+            logger.info("IPv6 UDP服务器已经启动，服务器绑定地址%s" % str(addr))  
+        except Exception, e:
+            logger.error("启动IPv6 UDP服务器失败，错误原因%s" % str(e))
             exit(0)
         while True:
                 buf,address = self.adapter_sock.recvfrom(1024)
                 if not buf:
                     break
-                handler = CPacketHandler(buf, address[0],segIP)
+                handler = CPacketHandler(buf, address[0], segIP)
                 handler.run()  
         self.adapter_sock.close()
+
 #-----------------------------------------------------
 class CControlMSGServer(threading.Thread):
     """接收ConfigManager传来数据包并解析出边缘网关mac地址，采控器地址，寄存器地址及控制数据并下发"""
-    def __init__(self,port,target,args):#controlmsg_packet格式（segmac, scmac, register, controldata）
-        threading.Thread.__init__(self,target,args)
+    def __init__(self, port):#controlmsg_packet格式（segmac, scmac, register, controldata）
+        threading.Thread.__init__(self)
         self.port = port
 
     def run(self):

@@ -1,0 +1,1352 @@
+183.220.77.52:42596 - - [02/Mar/2014 11:35:29] "HTTP/1.1 GET /" - 404 Not Found
+183.220.77.52:42597 - - [02/Mar/2014 11:35:29] "HTTP/1.1 OPTIONS /" - 404 Not Found
+183.220.77.52:42598 - - [02/Mar/2014 11:35:29] "HTTP/1.1 OPTIONS /" - 404 Not Found
+183.220.77.52:42608 - - [02/Mar/2014 11:36:13] "HTTP/1.1 GET /nice ports,/Trinity.txt.bak" - 404 Not Found
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 90, in run
+    del eachDataInfoDict['SRule']
+KeyError: 'SRule'
+
+Traceback (most recent call last):
+  File "main.py", line 51, in <module>
+    main()
+  File "main.py", line 16, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 105, in run
+    logger.info("MongoDB数据库错误，错误原因%s", str(e))
+TypeError: info() takes at most 2 arguments (3 given)
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 35, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 25, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 90, in regularReport
+    dataInfoList.append(eachDataInfoDict)
+NameError: global name 'dataInfoList' is not defined
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 34, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 25, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 102, in regularReport
+    storeip(self.ip, segmac, configFile, self.segIP)
+AttributeError: CCTMBHandler instance has no attribute 'ip'
+
+Traceback (most recent call last):
+  File "main.py", line 53, in <module>
+    pidfile.write(str(pid))
+NameError: name 'pid' is not defined
+219.141.189.154:44057 - - [17/Jul/2014 16:46:11] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44058 - - [17/Jul/2014 16:46:15] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44071 - - [17/Jul/2014 17:01:02] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44073 - - [17/Jul/2014 17:01:52] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44075 - - [17/Jul/2014 17:03:06] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44077 - - [17/Jul/2014 17:06:03] "HTTP/1.1 POST /adapter/api" - 200 OK
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 239, in process
+    return self.handle()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 420, in _delegate
+    return handle_class(cls)
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 396, in handle_class
+    return tocall(*args)
+  File "/home/ch/adapter/webservices/api.py", line 9, in GET
+    logger.info("TEST")
+NameError: global name 'logger' is not defined
+
+121.49.97.26:2270 - - [17/Jul/2014 17:06:59] "HTTP/1.1 GET /adapter/api" - 500 Internal Server Error
+121.49.97.26:2270 - - [17/Jul/2014 17:06:59] "HTTP/1.1 GET /favicon.ico" - 404 Not Found
+121.49.97.26:2284 - - [17/Jul/2014 17:07:32] "HTTP/1.1 GET /adapter/api" - 200 OK
+219.141.189.154:44079 - - [17/Jul/2014 17:07:37] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44081 - - [17/Jul/2014 17:10:07] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44083 - - [17/Jul/2014 17:10:45] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44085 - - [17/Jul/2014 17:13:52] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44086 - - [17/Jul/2014 17:14:03] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44088 - - [17/Jul/2014 17:16:45] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44090 - - [17/Jul/2014 17:17:49] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44091 - - [17/Jul/2014 17:18:19] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44093 - - [17/Jul/2014 17:19:55] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44094 - - [17/Jul/2014 17:20:36] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44095 - - [17/Jul/2014 17:21:21] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44097 - - [17/Jul/2014 17:22:12] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44098 - - [17/Jul/2014 17:22:38] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44099 - - [17/Jul/2014 17:23:04] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44100 - - [17/Jul/2014 17:23:24] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44101 - - [17/Jul/2014 17:23:43] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44102 - - [17/Jul/2014 17:24:11] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44103 - - [17/Jul/2014 17:24:27] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44104 - - [17/Jul/2014 17:24:47] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44105 - - [17/Jul/2014 17:25:05] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44107 - - [17/Jul/2014 17:26:04] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44108 - - [17/Jul/2014 17:26:29] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44110 - - [17/Jul/2014 17:27:18] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44112 - - [17/Jul/2014 17:28:17] "HTTP/1.1 POST /adapter/api" - 200 OK
+219.141.189.154:44114 - - [17/Jul/2014 17:30:35] "HTTP/1.1 POST /adapter/api" - 200 OK
+121.49.97.26:3551 - - [17/Jul/2014 18:05:50] "HTTP/1.1 GET /adapter/api" - 405 Method Not Allowed
+219.141.189.154:44126 - - [18/Jul/2014 11:26:44] "HTTP/1.1 POST /adapter/api" - 200 OK
+Exception in thread Thread-5:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 149, in run
+    self.cmsgPacketHandler(cmsg_pdu)
+  File "/home/ch/adapter/edgemanager/cserver.py", line 175, in cmsgPacketHandler
+    sender.run()
+  File "/home/ch/adapter/edgemanager/csender.py", line 26, in run
+    ipfile = open(filename,'rb')
+IOError: [Errno 2] No such file or directory: 'seg_ip.txt'
+
+220.176.4.95:59757 - - [25/Jul/2014 06:50:24] "HTTP/1.1 GET journal/volumesAndIssues/11663" - 404 Not Found
+59.55.46.46:51035 - - [25/Jul/2014 14:26:38] "HTTP/1.1 GET journal/volumesAndIssues/11663" - 404 Not Found
+219.141.189.154:59958 - - [30/Jul/2014 13:53:50] "HTTP/1.1 POST /adapter/api" - 200 OK
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 29, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 109, in regularReport
+    requester.run()
+  File "/home/ch/adapter/webservices/InsertDevInsData.py", line 27, in run
+    request = render.InsertDevInsData(transactionID, timeStamp, appCode, auth, self.insid, self.gathertime, self.createtime, self.value, self.svalue, self.workstatus, self.alerttype, self.alertdesc, self.devicetype)
+  File "/usr/lib64/python2.7/site-packages/web/template.py", line 881, in __call__
+    return BaseTemplate.__call__(self, *a, **kw)
+  File "/usr/lib64/python2.7/site-packages/web/template.py", line 808, in __call__
+    return self.t(*a, **kw)
+TypeError: __template__() takes exactly 14 arguments (13 given)
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 29, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 112, in regularReport
+    requester.run()
+  File "/home/ch/adapter/webservices/InsertDevInsData.py", line 18, in run
+    request = render.InsertDevInsData(transactionID, timeStamp, appCode, auth, datas)
+NameError: global name 'datas' is not defined
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 29, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 112, in regularReport
+    requester.run()
+  File "/home/ch/adapter/webservices/InsertDevInsData.py", line 20, in run
+    request = render.InsertDevInsData(transactionID, timeStamp, appCode, auth, self.datas)
+  File "/usr/lib64/python2.7/site-packages/web/template.py", line 881, in __call__
+    return BaseTemplate.__call__(self, *a, **kw)
+  File "/usr/lib64/python2.7/site-packages/web/template.py", line 808, in __call__
+    return self.t(*a, **kw)
+  File "/home/ch/adapter/webservices/templates/InsertDevInsData.xml", line 17, in __template__
+    <AlertType>$data["AlertType"]</AlertType>
+KeyError: 'CreateTime'
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 29, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 113, in regularReport
+    requester.run()
+  File "/home/ch/adapter/webservices/InsertDevInsData.py", line 21, in run
+    request = render.InsertDevInsData(transactionID, timeStamp, appCode, auth, self.datas. createtime)
+AttributeError: 'list' object has no attribute 'createtime'
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 29, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 113, in regularReport
+    requester.run()
+  File "/home/ch/adapter/webservices/InsertDevInsData.py", line 32, in run
+    success = "数据成功上报，事务序列号: " + transactionID
+TypeError: cannot concatenate 'str' and 'UUID' objects
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 30, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 96, in regularReport
+    entityName = eachDataInfoDict['MonitorName']
+KeyError: 'MonitorName'
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 30, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 97, in regularReport
+    deviceName = eachDataInfoDict['Name']
+KeyError: 'Name'
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 30, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 119, in regularReport
+    requester.run()
+  File "/home/ch/adapter/webservices/InsertDevInsData.py", line 22, in run
+    request = render.InsertDevInsData(transactionID, timeStamp, appCode, auth, self.datas, createtime)
+  File "/usr/lib64/python2.7/site-packages/web/template.py", line 881, in __call__
+    return BaseTemplate.__call__(self, *a, **kw)
+  File "/usr/lib64/python2.7/site-packages/web/template.py", line 808, in __call__
+    return self.t(*a, **kw)
+  File "/home/ch/adapter/webservices/templates/InsertDevInsData.xml", line 21, in __template__
+    </ItemRequest>
+KeyError: 'AlertType'
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 30, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 119, in regularReport
+    requester.run()
+  File "/home/ch/adapter/webservices/InsertDevInsData.py", line 22, in run
+    request = render.InsertDevInsData(transactionID, timeStamp, appCode, auth, self.datas, createtime)
+  File "/usr/lib64/python2.7/site-packages/web/template.py", line 881, in __call__
+    return BaseTemplate.__call__(self, *a, **kw)
+  File "/usr/lib64/python2.7/site-packages/web/template.py", line 808, in __call__
+    return self.t(*a, **kw)
+  File "/home/ch/adapter/webservices/templates/InsertDevInsData.xml", line 21, in __template__
+    </ItemRequest>
+KeyError: 'AlertType'
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 30, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 119, in regularReport
+    requester.run()
+  File "/home/ch/adapter/webservices/InsertDevInsData.py", line 22, in run
+    request = render.InsertDevInsData(transactionID, timeStamp, appCode, auth, self.datas, createtime)
+  File "/usr/lib64/python2.7/site-packages/web/template.py", line 881, in __call__
+    return BaseTemplate.__call__(self, *a, **kw)
+  File "/usr/lib64/python2.7/site-packages/web/template.py", line 808, in __call__
+    return self.t(*a, **kw)
+  File "/home/ch/adapter/webservices/templates/InsertDevInsData.xml", line 21, in __template__
+    </ItemRequest>
+KeyError: 'AlertType'
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 30, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 119, in regularReport
+    requester.run()
+  File "/home/ch/adapter/webservices/InsertDevInsData.py", line 22, in run
+    request = render.InsertDevInsData(transactionID, timeStamp, appCode, auth, self.datas, createtime)
+  File "/usr/lib64/python2.7/site-packages/web/template.py", line 881, in __call__
+    return BaseTemplate.__call__(self, *a, **kw)
+  File "/usr/lib64/python2.7/site-packages/web/template.py", line 808, in __call__
+    return self.t(*a, **kw)
+  File "/home/ch/adapter/webservices/templates/InsertDevInsData.xml", line 21, in __template__
+    </ItemRequest>
+KeyError: 'AlertType'
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 30, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 119, in regularReport
+    requester.run()
+  File "/home/ch/adapter/webservices/InsertDevInsData.py", line 22, in run
+    request = render.InsertDevInsData(transactionID, timeStamp, appCode, auth, self.datas, createtime)
+  File "/usr/lib64/python2.7/site-packages/web/template.py", line 881, in __call__
+    return BaseTemplate.__call__(self, *a, **kw)
+  File "/usr/lib64/python2.7/site-packages/web/template.py", line 808, in __call__
+    return self.t(*a, **kw)
+  File "/home/ch/adapter/webservices/templates/InsertDevInsData.xml", line 21, in __template__
+    </ItemRequest>
+KeyError: 'AlertType'
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 30, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 119, in regularReport
+    requester.run()
+  File "/home/ch/adapter/webservices/InsertDevInsData.py", line 22, in run
+    request = render.InsertDevInsData(transactionID, timeStamp, appCode, auth, self.datas, createtime)
+  File "/usr/lib64/python2.7/site-packages/web/template.py", line 881, in __call__
+    return BaseTemplate.__call__(self, *a, **kw)
+  File "/usr/lib64/python2.7/site-packages/web/template.py", line 808, in __call__
+    return self.t(*a, **kw)
+  File "/home/ch/adapter/webservices/templates/InsertDevInsData.xml", line 21, in __template__
+    </ItemRequest>
+KeyError: 'AlertType'
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 30, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 119, in regularReport
+    requester.run()
+  File "/home/ch/adapter/webservices/InsertDevInsData.py", line 22, in run
+    request = render.InsertDevInsData(transactionID, timeStamp, appCode, auth, self.datas, createtime)
+  File "/usr/lib64/python2.7/site-packages/web/template.py", line 881, in __call__
+    return BaseTemplate.__call__(self, *a, **kw)
+  File "/usr/lib64/python2.7/site-packages/web/template.py", line 808, in __call__
+    return self.t(*a, **kw)
+  File "/home/ch/adapter/webservices/templates/InsertDevInsData.xml", line 21, in __template__
+    </ItemRequest>
+KeyError: 'AlertType'
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 30, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 119, in regularReport
+    requester.run()
+  File "/home/ch/adapter/webservices/InsertDevInsData.py", line 22, in run
+    request = render.InsertDevInsData(transactionID, timeStamp, appCode, auth, self.datas, createtime)
+  File "/usr/lib64/python2.7/site-packages/web/template.py", line 881, in __call__
+    return BaseTemplate.__call__(self, *a, **kw)
+  File "/usr/lib64/python2.7/site-packages/web/template.py", line 808, in __call__
+    return self.t(*a, **kw)
+  File "/home/ch/adapter/webservices/templates/InsertDevInsData.xml", line 21, in __template__
+    </ItemRequest>
+KeyError: 'AlertType'
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 30, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 119, in regularReport
+    requester.run()
+  File "/home/ch/adapter/webservices/InsertDevInsData.py", line 22, in run
+    request = render.InsertDevInsData(transactionID, timeStamp, appCode, auth, self.datas, createtime)
+  File "/usr/lib64/python2.7/site-packages/web/template.py", line 881, in __call__
+    return BaseTemplate.__call__(self, *a, **kw)
+  File "/usr/lib64/python2.7/site-packages/web/template.py", line 808, in __call__
+    return self.t(*a, **kw)
+  File "/home/ch/adapter/webservices/templates/InsertDevInsData.xml", line 21, in __template__
+    </ItemRequest>
+KeyError: 'AlertType'
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 30, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 103, in regularReport
+    eachDataInfoDict['AlertDesc'] = "%s%s(%f)在%s超过阈值(%d,%d)" % (entityName, deviceName, SValue, datetime.datetime.now(), low, high)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe5 in position 8: ordinal not in range(128)
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 30, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 101, in regularReport
+    eachDataInfoDict['AlertDesc'] = "%s%s(%f)在%s超过阈值(%d,%d)" % (entityName, deviceName, SValue, datetime.datetime.now(), low, high)
+TypeError: float argument required, not str
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 31, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 99, in regularReport
+    if eachDataInfoDict['AlertType'] == 1:
+KeyError: 'AlertType'
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 31, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 123, in regularReport
+    storeHigh(eachDataInfoDict['InsID'])
+NameError: global name 'storeHigh' is not defined
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 31, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 123, in regularReport
+    storeHigh(eachDataInfoDict['InsID'])
+  File "/home/ch/adapter/function/store_ip.py", line 25, in storeHigh
+    insidlist = pickle.loads(filename)
+UnpicklingError: invalid load key, '/'.
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 31, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 123, in regularReport
+    storeHigh(eachDataInfoDict['InsID'])
+  File "/home/ch/adapter/function/store_ip.py", line 25, in storeHigh
+    insidlist = pickle.loads(filename)
+UnpicklingError: invalid load key, '/'.
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 31, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 123, in regularReport
+    storeHigh(eachDataInfoDict['InsID'])
+  File "/home/ch/adapter/function/store_ip.py", line 31, in storeHigh
+    pickle.dump(insidlist, filename)
+TypeError: argument must have 'write' attribute
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 31, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 112, in regularReport
+    highList, lowList = retoreHighLow()
+  File "/home/ch/adapter/function/store_ip.py", line 45, in retoreHighLow
+    f = open(filename, 'r')
+IOError: [Errno 2] No such file or directory: '/home/ch/adapter/temps/low.tmp'
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 31, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 114, in regularReport
+    logger.info(deviceMap[4651912738])
+KeyError: 4651912738
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 31, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 114, in regularReport
+    logger.info(deviceMap['4651912738'])
+KeyError: '4651912738'
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 31, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 118, in regularReport
+    logger.info(deviceMap['4651912738'])
+KeyError: '4651912738'
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 31, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 118, in regularReport
+    logger.info(deviceMap[4651912738])
+KeyError: 4651912738
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 31, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 118, in regularReport
+    logger.info(deviceMap['4651912738'])
+KeyError: '4651912738'
+
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 31, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 172, in regularReport
+    logger.info(str(deviceMap))
+NameError: global name 'deviceMap' is not defined
+
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 23, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 64, in <module>
+    main()
+  File "./main.py", line 25, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 31, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 176, in regularReport
+    logger.info(str(globaldata.deviceMap))
+NameError: global name 'globaldata' is not defined
+
+Traceback (most recent call last):
+  File "./main.py", line 61, in <module>
+    signal.signal(signal.SIGKILL, exit)
+RuntimeError: (22, 'Invalid argument')
+Traceback (most recent call last):
+  File "main.py", line 61, in <module>
+    signal.signal(signal.SIGKILL, exit_handler)
+RuntimeError: (22, 'Invalid argument')
+Traceback (most recent call last):
+  File "./main.py", line 63, in <module>
+    main()
+  File "./main.py", line 18, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1765, in start
+    self.tick()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1800, in tick
+    s, addr = self.socket.accept()
+  File "/usr/lib64/python2.7/socket.py", line 202, in accept
+    sock, addr = self._sock.accept()
+TypeError: exit_handler() takes no arguments (2 given)
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 18, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1765, in start
+    self.tick()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1800, in tick
+    s, addr = self.socket.accept()
+  File "/usr/lib64/python2.7/socket.py", line 202, in accept
+    sock, addr = self._sock.accept()
+TypeError: exit_handler() takes no arguments (2 given)
+Traceback (most recent call last):
+  File "./main.py", line 62, in <module>
+    main()
+  File "./main.py", line 18, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1765, in start
+    self.tick()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1800, in tick
+    s, addr = self.socket.accept()
+  File "/usr/lib64/python2.7/socket.py", line 202, in accept
+    sock, addr = self._sock.accept()
+TypeError: exit_handler() takes no arguments (2 given)
+Traceback (most recent call last):
+  File "./main.py", line 66, in <module>
+    main()
+  File "./main.py", line 18, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 66, in <module>
+    main()
+  File "./main.py", line 18, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1765, in start
+    self.tick()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1800, in tick
+    s, addr = self.socket.accept()
+  File "/usr/lib64/python2.7/socket.py", line 202, in accept
+    sock, addr = self._sock.accept()
+TypeError: exit_handler() takes no arguments (2 given)
+Traceback (most recent call last):
+  File "./main.py", line 66, in <module>
+    logger.info(globals.test)
+AttributeError: 'builtin_function_or_method' object has no attribute 'test'
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 31, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 116, in regularReport
+    globaldata.add(insid, eachDataInfoDict)
+NameError: global name 'globaldata' is not defined
+
+Traceback (most recent call last):
+  File "./main.py", line 75, in <module>
+    main()
+  File "./main.py", line 25, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1765, in start
+    self.tick()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1800, in tick
+    s, addr = self.socket.accept()
+  File "/usr/lib64/python2.7/socket.py", line 202, in accept
+    sock, addr = self._sock.accept()
+  File "./main.py", line 29, in exit_handler
+    filename = config.PROGRAM_ROOT + os.sep + 'temps' + os.sep + 'devicemap'
+NameError: global name 'config' is not defined
+Traceback (most recent call last):
+  File "./main.py", line 75, in <module>
+    main()
+  File "./main.py", line 25, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 75, in <module>
+    main()
+  File "./main.py", line 25, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 75, in <module>
+    main()
+  File "./main.py", line 25, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 75, in <module>
+    main()
+  File "./main.py", line 25, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1765, in start
+    self.tick()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1800, in tick
+    s, addr = self.socket.accept()
+  File "/usr/lib64/python2.7/socket.py", line 202, in accept
+    sock, addr = self._sock.accept()
+  File "./main.py", line 29, in exit_handler
+    filename = config.PROGRAM_ROOT + os.sep + 'temps' + os.sep + 'devicemap'
+NameError: global name 'config' is not defined
+Traceback (most recent call last):
+  File "./main.py", line 75, in <module>
+    main()
+  File "./main.py", line 25, in main
+    app.run()
+  File "/usr/lib64/python2.7/site-packages/web/application.py", line 313, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/usr/lib64/python2.7/site-packages/web/wsgi.py", line 54, in runwsgi
+    return httpserver.runsimple(func, validip(listget(sys.argv, 1, '')))
+  File "/usr/lib64/python2.7/site-packages/web/httpserver.py", line 157, in runsimple
+    server.start()
+  File "/usr/lib64/python2.7/site-packages/web/wsgiserver/__init__.py", line 1753, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Traceback (most recent call last):
+  File "./main.py", line 74, in <module>
+    main()
+  File "./main.py", line 20, in main
+    globals.deviceMap = pickle.loads(f)
+TypeError: must be string, not file
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 31, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 142, in regularReport
+    lowList.append(insid)
+NameError: global name 'lowList' is not defined
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/home/ch/adapter/edgemanager/cserver.py", line 44, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/cpacket_handler.py", line 27, in run
+    handler.run()
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 31, in run
+    self.regularReport(self.mbapHeader, self.data)
+  File "/home/ch/adapter/edgemanager/ctmb.py", line 173, in regularReport
+    requester.run()
+  File "/home/ch/adapter/webservices/InsertDevInsData.py", line 22, in run
+    request = render.InsertDevInsData(transactionID, timeStamp, appCode, auth, self.datas, createtime)
+  File "/usr/lib64/python2.7/site-packages/web/template.py", line 881, in __call__
+    return BaseTemplate.__call__(self, *a, **kw)
+  File "/usr/lib64/python2.7/site-packages/web/template.py", line 808, in __call__
+    return self.t(*a, **kw)
+  File "/home/ch/adapter/webservices/templates/InsertDevInsData.xml", line 21, in __template__
+    </ItemRequest>
+KeyError: 'AlertType'
+
